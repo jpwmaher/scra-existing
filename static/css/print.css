@@ -1,0 +1,247 @@
+@page {
+    margin: 1cm 0.5cm;
+}
+
+.print-only {
+    display: block !important;
+}
+
+@media print {
+    .print-preview-only {
+        display: none !important;   
+    }
+}
+
+#content-print-disabled {
+    display: none !important;
+}
+
+#footer-screen {
+    display: none !important;
+}
+
+.print-disabled {
+    display: none !important;
+}
+
+body {
+    min-width: default !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+a[href]:after {
+    content: "";
+}
+a {
+    text-decoration:none!important;
+    cursor:default;
+}
+
+#footer-print {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.row-fluid [class*="span"] {
+    min-height: 10px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+}
+.row-fluid .span6 {
+}
+.row-fluid .container-header {
+    margin-top: 20px !important;
+    height: auto!important;
+}
+
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    position: static !important;
+}
+
+.patientBanner {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+.navbar-inner {
+    border: 0px !important;
+}
+
+.row-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.well {
+    margin: 0;
+    padding: 0 !important;
+    border: 0;
+}
+
+.container-header {
+    height: 40px;
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+}
+
+.navbar-inner {
+    filter: none !important;
+    background-image: none !important;
+}
+
+.gradientBackground,
+.gradientBackgoundDark,
+.gradientBackgroundLight,
+.gradientBackgroundAlt1 {
+    filter: none !important;
+    background-image: none !important;
+}
+
+.alert{
+    border: none !important;    
+}
+
+#content {
+    margin-left: 0px!important;
+}
+.help-content #content-panel {
+    margin-left: 5px!important;
+}
+.help-content h1,
+.help-content h2 {
+    padding: 0!important;
+}
+body {
+    overflow-x: hidden;
+}
+* {
+    word-wrap: normal!important;
+}
+.btn {
+    border: solid 1px #cccccc;
+}
+table, tbody, thead, tr {
+    border: solid 1px #cccccc;
+    border-collapse: collapse;
+}
+dl {
+    display:block;
+}
+tr,dl {
+	page-break-inside: avoid;
+}
+.gp-summary td {
+	padding: 0 10px
+}
+.gp-summary table tr {
+    border: none!important;
+}
+.contactnextofkin .container-header .span10 {
+    width: 100%;
+}
+div#footer-print {
+	display: block;
+	page-break-inside: avoid;
+}
+dt {
+    font-size: 13px;
+}
+#content #masterBody {
+	padding-top: 0!important;
+}
+
+#masterHeader {
+	position: inherit;
+	*position: static;
+}
+
+.data-quality-issue {
+    color: Black!important;
+}
+.gp-summary .help-popup {
+	display: none;
+}
+
+.gp-summary-content .accordion-inner {
+    padding: 0 !important;
+    border-top: 1px solid #e5e5e5;
+}
+
+.gp-summary-content .accordion-border {
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.gp-summary-content .accordion-border-open {
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.gp-summary-content .accordion-group {
+    border-bottom: 0;
+}
+
+.gp-connect .help-popup {
+    display: none;
+}
+
+.gp-connect-content .accordion-inner {
+    padding: 0 !important;
+    border-top: 1px solid #e5e5e5;
+}
+
+.gp-connect-content .accordion-border {
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.gp-connect-content .accordion-border-open {
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.gp-connect-content .accordion-group {
+    border-bottom: 0;
+}
+
+.collapse {
+    display: block !important;
+    position: static;
+    height: auto !important;
+    overflow: auto;
+}
+
+#masterBody {
+    margin-left: 0px!important;
+}
+
+.collapse {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.ovm-system-data-container {
+    margin-left: 0;
+}
+
+.ovm-system-data-container li {
+    padding: 0 25px 0 0 !important;
+}
+
+/* SPII-21618: FireFox container overflow issue fix */
+@media print {
+    #masterBody * {
+        overflow: visible !important;
+    }
+}

@@ -1,0 +1,8 @@
+/*  IE10 specific CSS, now that IE10 doesn't recognise conditional comments, we are setting data-useragent string for detection in css.
+    Then checking that the html data-useragent contains the string MSIE 10.0, which is unique to IE10.
+*/
+
+html[data-useragent*='MSIE 10.0'] .help-content #menu-panel {
+    left: 0px;
+    top: 90px;
+}

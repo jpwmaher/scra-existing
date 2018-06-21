@@ -1,0 +1,1053 @@
+/* GLOBAL STYLES */
+
+* {
+    word-wrap: break-word;
+}
+
+.wrap-text {
+    overflow: visible;
+    white-space: normal;
+    height: auto;
+}
+
+body {
+    min-width: 800px;
+    /* allocate some padding at top and bottom for fixed header and footer modules */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    color: #215DC5;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h2 {
+    color: #000099;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+h3 {
+    color: #000099;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+a {
+    color: #006bbb;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005580;
+    text-decoration: underline;
+}
+
+.navbar .nav > li > a {
+  color: #737373;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  background-color: #007dbb;
+}
+
+label {
+    display: inline;
+}
+
+/* END OF GLOBAL STYLES */
+
+/* ID STYLES */
+
+#masterHeader {
+	z-index: 1000;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 30px;
+}
+
+#primary-tabs {
+    margin-top: 10px;
+}
+
+#secondary-tabs {
+	position: relative;
+	padding: 15px 20px 5px;
+	left: -20px;
+    background: white;
+}
+
+#sidePanel { 
+	position: fixed;
+	right: 10px;
+}
+
+.duplicatePatient {
+    border-style:solid;
+    border-color: #a94442;
+    border-width:5px;
+}
+/* CLASS STYLES */
+
+.formsubtitle {
+    margin: 0 10px 0 20px;
+}
+
+.editFormActions {
+    margin-bottom: 10px;
+}
+
+.print-only {
+    display: none !important;
+}
+
+.print-preview-only {
+    display: none;  
+}
+
+.table-dark {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+
+/* FLASH MESSAGE STYLES */
+
+#flasherrormessage,
+#flashwarningmessage,
+#flashinformationmessage,
+#flashsuccessmessage {
+    margin-left: 5px;   
+}
+
+.flash-message-list {
+    position: relative;
+    zoom: 1;
+}
+
+.flash-message-list i.icon-large {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.flash-message-list button {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    height: 20px;
+}
+
+.flash-message-list ul {
+    margin: 0 0 0 50px;
+}
+
+.flash-message-list ul.unstyled {
+    margin: 0 0 0 30px;
+}
+
+.flashBanner-container {
+    padding-top:10px;
+    background: white;
+}
+
+
+/* CONTAINER HEADER STYLES */
+
+.container-header {
+    border-bottom: 1px solid #C5C5C5;
+}
+
+.container-header h2 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.container-header .container-header-subtitle {
+    padding: 0 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+
+
+.form-condensed .control-group {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.table-height-short {  
+    max-height: 200px;
+    overflow: auto;
+}​
+
+.table-height-medium {  
+    max-height: 400px;
+    overflow: auto;
+}
+
+.table-height-tall {  
+    max-height: 600px;
+    overflow: auto;
+}
+
+
+.border-left {
+    border-left: 1px solid #e3e3e3;
+}
+
+.border-right {
+    border-right: 1px solid #e3e3e3;
+}
+
+/*different browser use different formats for gradient bg so defined > once - TODO: Work out how many we actually need */
+
+.gradientBackground {
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#FCFCFC, endColorStr=#D4D7D8 );
+    background-image: -ms-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: -moz-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: -o-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FCFCFC),
+        color-stop(1, #D4D7D8) );
+    background-image: -webkit-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: linear-gradient(to bottom, #FCFCFC 0%, #D4D7D8 100%);
+    zoom: 1;
+}
+
+.gradientBackgoundDark {
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#00007D, endColorStr=#000053 );
+    background-image: -ms-linear-gradient(top, #00007D 0%, #000053 100%);
+    background-image: -moz-linear-gradient(top, #00007D 0%, #000053 100%);
+    background-image: -o-linear-gradient(top, #00007D 0%, #000053 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00007D),
+        color-stop(1, #000053) );
+    background-image: -webkit-linear-gradient(top, #00007D 0%, #000053 100%);
+    background-image: linear-gradient(to bottom, #00007D 0%, #000053 100%);
+    zoom: 1;
+}
+
+.gradientBackgroundLight {
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#FFFFFF, endColorStr=#EFEFF4 );
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF),
+        color-stop(1, #EFEFF4) );
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #EFEFF4 100%);
+    zoom: 1;
+}
+
+.gradientBackgroundAlt1 {
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#F8F8FD, endColorStr=#C4DBEE );
+    background-image: -ms-linear-gradient(top, #F8F8FD 0%, #C4DBEE 100%);
+    background-image: -moz-linear-gradient(top, #F8F8FD 0%, #C4DBEE 100%);
+    background-image: -o-linear-gradient(top, #F8F8FD 0%, #C4DBEE 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F8F8FD),
+        color-stop(1, #C4DBEE) );
+    background-image: -webkit-linear-gradient(top, #F8F8FD 0%, #C4DBEE 100%);
+    background-image: linear-gradient(to bottom, #F8F8FD 0%, #C4DBEE 100%);
+    zoom: 1;
+}
+
+/* Alternate highlight text to standard H2 */
+.heavyText,.heavyText label {
+    color: Black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Alternate highlight text to standard H2 */
+.deletedText,.deletedText label {
+    color: Gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.duplicateText {
+    color: #a94442;
+}
+
+
+.lightGroupContainer {
+    background-color: White;
+}
+
+.highlightBlock {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+
+
+.groupArea {
+    border: 1px #C5C5C5 solid;
+    padding-right: 30px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    zoom: 1;
+}
+
+.warningIcon {
+    background-image: url(../../common/static/img/warning_icon_big.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 39px;
+}
+
+.arrowIcon {
+    background-image: url(../images/bulletArrow.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    width: auto;
+}
+
+.backArrowIcon {
+    background-image: url(../images/backArrow_new.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    width: auto;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.footer {
+    color: White;
+    background-color: #0066CC;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    left: 0px;
+    right: 0px;
+    height: 24px;
+    clear: both;
+    vertical-align: bottom;
+    bottom: 0px;
+    zoom: 1;
+    font-size: 12px;
+}
+
+.footer a {
+    color: White;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nav {
+    margin-bottom: 0px;
+}
+
+.date-input {
+    width: 60px;
+}
+
+.control-group-error {
+    background-color: #F2DEDF;
+    padding-top: 6px;
+    margin-bottom: 6px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.control-group-info {
+    background-color: #dff0d8;
+    padding-top: 6px;
+    margin-bottom: 6px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.errorText {
+    color: #CC0000;
+}
+
+.active-scr {
+    color: Green;
+}
+
+.no-active-scr {
+    color: Red;
+}
+
+.data-quality-issue {
+    color: Blue;
+}
+select option {
+    color: #555555;
+    font-style: normal;
+}
+select option[disabled]:first-child {
+    display: none;
+}
+.placeholder,
+select>option:first-child,
+select.empty { 
+    color: #aaa !important;
+    font-style: italic;
+    font-weight: normal !important;
+}
+#addressSearchResults   option:first-child,
+.ui-datepicker option:first-child {
+    color: black !important;
+    font-style: normal;
+}
+::-webkit-input-placeholder { 
+    font-style: italic; 
+    font-weight: normal;
+    text-transform: none !important;
+}
+::-moz-placeholder { /* firefox 19+ */
+    font-style: italic;
+    font-weight: normal;
+    text-transform: none !important;
+} 
+:-ms-input-placeholder { /* ie */
+    font-style: italic;
+    font-weight: normal;
+    text-transform: none !important;
+} 
+input:-moz-placeholder { 
+    font-style: italic;
+    font-weight: normal;
+    text-transform: none !important;
+}
+::-webkit-input-placeholder:before { 
+    content: "[";
+}
+::-webkit-input-placeholder:after { 
+    content: "]";
+}
+::-moz-placeholder:before { 
+    content: "[";
+}
+::-moz-placeholder:after { 
+    content: "]";
+}
+:-ms-input-placeholder:before { 
+    content: "[";
+}
+:-ms-input-placeholder:after { 
+    content: "]";
+}
+input:-moz-placeholder:before { 
+    content: "[";
+}
+input:-moz-placeholder:after { 
+    content: "]";
+}
+
+.hidden-offscreen {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+
+/* ADDRESS FINDER RESULTS */
+
+a.resultsPostcodeLink {
+    /* make postcode lookup results selectable by table row, not just link text */
+    display: block;
+}
+
+
+
+/* PATIENT BANNER STYLES */
+
+.patientBanner {
+    color: white;
+}
+
+.patientBanner .patient-name {
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.patientBanner ul {
+	display: table;
+	margin-bottom: 0;
+}
+.patientBanner li {
+    display: list-item;
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    font-size: 85%;
+    *display: inline;
+    *zoom: 1;
+    *float: none;
+}
+.patientBanner li span {
+    padding-right: 10px;
+    font-style: italic;
+}
+#patientBanner {
+	padding-top: 5px;
+}
+
+/* SEARCH FORM STYLES */
+
+form[name=BasicSearch] .addressSummaryDisplay,
+form[name=AdvancedSearch] .addressSummaryDisplay,
+form[name=PostcodeSearch] .addressSummaryDisplay {
+    margin-left: 180px;
+    margin-bottom: 5px;
+    color: #888;
+}
+
+input[type=text], textarea, input[type=radio] + label, select, option {
+    font-weight: bold;
+}
+
+a, 
+input[type="submit"].btn-link,
+input[type="button"].btn-link {
+    font-weight: bold;
+}
+
+input[value="Clear"].btn-link, 
+input[value="Cancel"].btn-link,
+a[href="#cancelModal"],
+a.btn-small,
+ul.nav>li>a {
+    font-weight: normal!important;
+}
+
+.container-fluid dt {
+    padding-top: 2px;
+}
+.noTopBorder dd,
+.container-fluid dl:first-child dd,
+.container-fluid dd>div:first-child {
+    border-top: none!important;
+}
+.container-fluid dd,
+.container-fluid dd>div {
+    border-top: 1px solid #C5C5C5;
+    border-collapse: collapse;
+    padding-top: 2px;
+}
+
+#gototop {
+    display: none;
+    float: right !important;
+    font-weight: bold;
+    margin: 0 20px 40px 0;
+}
+
+.addressAndPostcodeLookup {
+    display: inline-block;
+}
+
+.addressAndPostcodeLookup input {
+    padding-bottom: 0;
+}
+
+.addressAndPostcodeLookup em {
+    padding-left: 10px;
+}
+
+#postcode_allocatesearch_row input[type=text],
+#postcode_advancedsearch_row input[type=text],
+#usualPostCode_row input[type=text],
+#dischargePostCode_row input[type=text]{
+    vertical-align: top;
+}
+
+#practicecode_row label {
+    padding-left: 35px;
+    width: 125px;
+}
+
+#registeredGps dt {
+	width: auto;
+}
+#registeredGps dd {
+    margin-left: 40px;
+}
+#registeredGps .fixed-width-180 {
+    width: 180px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+#registeredGps .fixed-width-400 {
+    width: 400px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.privacy-alert {
+    padding: 8px;
+    background-image: url(../images/dashed_blue.gif);
+}
+
+.privacy-alert-inner {
+    padding: 5px;
+    background-color: white;
+    color: Black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.help-panel hr {
+    margin: 0 0 10px 0;
+}
+.help-scrollpane {
+    max-height: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#allocateSearchForm .nav-list .divider {
+	background-color: #C5C5C5;
+}
+
+.help-panel #advancedSearchHelp, {
+.help-panel #postcodeSearchHelp,
+    display: none;
+}
+div.privacy-alert,
+div.help-panel {
+	margin-right: 10px;
+}
+.help-panel h2 {
+    background-image: url(../images/gear.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 6px 0 8px 35px;
+}
+.help-panel li>a {
+    color: black;
+    font-weight: normal!important;
+    text-decoration: underline;
+}
+.help-panel li>a:hover {
+    color: black;
+    font-weight: normal!important;
+    text-decoration: underline;
+}
+.help-panel li {
+    padding: 3px 0 3px 0;
+    font-size: 12px;
+}
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+    margin-left: 10px!important;
+}
+.inline input[type="radio"]
+{
+    margin-left: -15px!important;
+    padding-left: 10px!important;
+}
+#gender_advancedsearch_row label
+{
+    margin-left: 0!important;
+}
+#interpreterRequired {
+    padding-left: 10px!important;
+}
+
+.inline-fields {
+    display: block;
+    margin-bottom: 5px;
+    width:100%;
+}
+.inline-fields .control-group, .inline-fields .control-group-error {
+    vertical-align: top;
+    display: inline-block;
+    /*IE 7 Hack*/
+    zoom: 1;
+    *display: inline;
+}
+
+.inline-fields .control-group-error .controls .help-block.errorText {
+	margin-left:-173px;
+	width: 262px;
+}
+
+.inline-fields select {
+    width: auto!important;
+}
+.inline-fields .input-suffix {
+    width: 66px;
+}
+
+.nhsNumberWrapper .controls .uneditable-input {
+    padding: 5px 4px 0 4px;
+    font-weight: bold;
+    color: black;
+}
+span.uneditable-input {
+    padding: 5px 4px 2px 4px;
+}
+.controls #interpreterRequired + label {
+    padding-left: 5px;
+}
+span.optional {
+    font-weight: normal;
+}
+span.optional em {
+    display: none;
+}
+span.contact.relationshipType {
+	margin-left: 2em;
+}
+.nav-tabs > li > a, .nav-pills > li > a {
+       padding-left: 8px;
+       padding-right: 8px;
+}
+#gender_row label,
+#consent_row label,
+#researchConsent_row label,
+#declaredByProxy_row label,
+#adminConsent_row label
+{
+       font-weight: normal!important;
+}
+#gender_row input[type="radio"]:checked + label,
+#consent_row input[type="radio"]:checked + label,
+#researchConsent_row input[type="radio"]:checked + label,
+#declaredByProxy_row input[type="radio"]:checked + label,
+#adminConsent_row input[type="radio"]:checked + label
+{
+    font-weight: bold!important;
+}
+#currentRoleFormBean #cancel {
+    font-weight: normal;
+}
+.dotted-underline {
+    text-decoration: none!important;
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+.table-break-word {
+    word-break: break-word;
+}
+#consent_row .radio.inline,
+#researchConsent_row .radio.inline,
+#declaredByProxy_row .radio.inline,
+#adminConsent_row .radio.inline {
+    display: block;
+    margin-left: 0!important;
+}
+#consent_row .radio.inline + .radio.inline,
+#researchConsent_row .radio.inline + .radio.inline,
+#declaredByProxy_row .radio.inline + .radio.inline,
+#adminConsent_row .radio.inline + .radio.inline {
+    margin-left: 0!important;
+}
+#proxyRole_row,
+#proxyRoleOriginal_row {
+  display: none;
+}
+div[id*='edit-address-'] .form-actions {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    text-align: center;
+}
+
+#previous_contact_allocatesearch_row > label{
+	width: auto;
+}
+#addressFinderPanel, #practiceFinderPanel, #organisationFinderPanel {
+	margin-right: 10px;
+}
+#addressFinderPanel form, 
+#practiceFinderPanel form, 
+#organisationFinderPanel form,
+#organisationFinderForm form {
+	padding-top: 0px;
+}
+
+.bnadetails {
+    padding-top: 10px;
+}
+
+#previous_contact_allocatesearch_row > label {
+	width: auto;
+}
+
+.btn.btn-small.btn-primary {
+	font-size:12px;
+}
+.btn.btn-primary.btn-additional-info {
+    background-color: #ffff00;
+    background-image: -moz-linear-gradient(top, #ffff00, #dddd00);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffff00), to(#dddd00));
+    /* background-image: -webkit-linear-gradient(top, #ffff00, #dddd00); */
+    background-image: -o-linear-gradient(top, #ffff00, #dddd00);
+    background-image: linear-gradient(to bottom, #ffff00, #dddd00);
+    background-repeat: repeat-x;
+    border-color: #dddd00 #dddd00 #cccc00;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: black;
+}
+#ui-datepicker-div {
+    z-index: 9999!important;
+}
+#bnaModal div.popover {
+	width: 500px;
+	max-width: 500px
+}
+.bna.label-selection .header {
+	font-weight: bold;
+}
+.bna.label-selection {
+	font-size: 12px!important;
+}
+.bna.label-selection input[type=radio] {
+	margin-left: 5px;
+	}
+.bna.label-selection .row-fluid [class*="span"] {
+	min-height: 0!important;
+}
+.button-margin {
+	margin-top: 10px;
+	margin-bottom: -25px;
+	*zoom: 1;
+}
+
+.button-margin input[type=submit] {
+    margin: 0 2px;
+}
+#loadingModal {
+	width: 430px;
+	margin-left: -215px;
+}
+.loading-bar {
+    height: 50px;
+    background-image: url(../../common/static/img/loading_bar_animated.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+.mandatory:before, .mandatory .before {
+    content: "*";
+    color: #e10000;
+    margin-right: 3px;
+    font-weight: bold;
+}
+.mandatory {
+	font-weight: bold;
+}
+.required:before, .required .before {
+    content: "**";
+    color: #333;
+    margin-right: 3px;
+    font-weight: bold;
+}
+a, h2, dt, label {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.fixed-secondary {
+	position: fixed;
+	top: 20px;
+}
+.no-underline:hover {
+	text-decoration: none;
+}
+#masterHeaderBlock .lead.pull-right {
+	padding-top: 20px;
+}
+
+#birthNotificationListTable th.selectall { 
+	width: 13px!important;
+	text-align: center;
+}
+#birthNotificationListTable th.status { 
+	width: 62px!important; 
+}
+#birthNotificationListTable th.saved-notified-date, 
+#birthNotificationListTable th.mother-nhs-number,
+#birthNotificationListTable th.mother-dob,
+#birthNotificationListTable th.baby-nhs-number { 
+	width: 85px!important; 
+}
+#birthNotificationListTable th.baby-gender {
+	width: 50px!important;
+}
+#birthNotificationListTable th.baby-dob { 
+	width: 110px!important; 
+}
+#birthNotificationListTable th.mother-name,
+#birthNotificationListTable th.baby-name,
+ {
+    width: auto!important;
+}
+
+.print-preview {
+	padding: 0 !important;
+	overflow-x: hidden;
+}
+.print-preview * {
+    background: white !important;
+    color: black !important;
+}
+.print-preview .print-preview-only,
+.print-preview .print-only {
+    display: block !important;
+}
+.print-preview .print-disabled,
+.print-preview .modal-backdrop,
+.print-preview #content-print-disabled,
+.print-preview .gp-summary .help-popup {
+    display: none !important;
+}
+.print-preview .btn {
+    border: solid 1px #cccccc;
+}
+.print-preview table, 
+.print-preview tbody, 
+.print-preview thead, 
+.print-preview tr {
+    border: solid 1px #cccccc;
+    border-collapse: collapse;
+}
+.print-preview #masterHeader {
+	position: static !important;
+}
+.print-preview #masterBody {
+    position: static !important;
+    padding-top: 0px !important;
+}
+.print-preview .patientBanner {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.print-preview #patientBanner {
+    padding-right: 20px !important;
+}
+.print-preview .container-header {
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+}
+.print-preview .well {
+    margin: 0;
+    padding: 0 !important;
+    border: 0;
+}
+.print-preview #print-preview-controls {
+    padding: 10px;
+}
+.print-preview .btn-right-space {
+    margin-right: 15px;
+}
+.print-preview .navbar-fixed-top,
+.print-preview .navbar-fixed-bottom {
+    position: static !important;
+}
+.print-preview #footer-print {
+    border-top: 2px solid black;
+    padding-top: 10px;
+    text-align: center;
+}
+.print-preview .gradientBackground,
+.print-preview .gradientBackgoundDark,
+.print-preview .gradientBackgroundLight,
+.print-preview .gradientBackgroundAlt1 {
+    filter: none !important;
+    background-image: none !important;
+}
+.print-preview .navbar-inner {
+    filter: none !important;
+    background-image: none !important;
+    box-shadow: none !important;
+}
+.print-preview .container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#patientTable .standardCell,
+#patientTable th,
+#patientTable .nameAndAddressClass div {
+    font-size: 12px !important;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+#mTelephoneHome_label,#mTelephoneMobile_label,#mTelephone_label{
+	 white-space: nowrap;
+}
+#additionalInfoExpandable {
+	margin-top: 10px;
+}
+
+#additionalInfo {
+    width:50%;
+    margin: 0 20px;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+}
+#additionalInfo_label {
+	display:none !important;
+}
+
+#additionalInfo_error {
+	margin-left:20px;
+}
+
+#user-agent {
+	font-family: Courier New;
+	font-size: 8pt
+}
+
+.ovmHelpPanel {
+    max-height: 240px;
+}
+
+.noDataMessage {
+    padding: 15px;
+}
+
+.print-preview .ovm-system-data-container {
+    margin-left: 0;
+}
+
+.print-preview .ovm-system-data-container li {
+    padding: 0 25px 0 0 !important;
+}

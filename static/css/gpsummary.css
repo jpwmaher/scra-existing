@@ -1,0 +1,281 @@
+/* ================================================================== */
+/* GP SUMMARY STYLES */
+/* override table display for HTML content retrieved for SCR display */
+/* ================================================================== */
+
+
+.gp-summary .HighlightedStatement {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* GP SUMMARY HEADER STYLES */
+
+.gp-summary .gp-summary-header {
+    background-image: url(../images/GPSummaryIcon_big.gif)!important;
+    background-position: top left!important;
+    background-repeat: no-repeat!important;
+    padding-left: 50px!important;
+    margin: 10px 0!important;
+    border-bottom: 1px solid #666;
+    min-height: 50px;
+}
+
+.gp-summary .gp-summary-header h2#Title {
+    float: left;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.gp-summary .gp-summary-header p#CreateTime {
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.gp-summary .gp-summary-header h3#Disclaimer {
+    clear:both;
+    color: #666;
+    font-size: 1.0em;
+    font-weight: normal;
+}
+
+
+/* GP SUMMARY SUBHEADER STYLES */
+
+.gp-summary .gp-summary-subheader {
+    margin: 10px 0 30px;
+}
+
+.gp-summary .gp-summary-subheader p#Author,
+.gp-summary .gp-summary-subheader p#Practice {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* ================================================================== */
+
+/* GP SUMMARY CONTENT STYLES */
+
+.gp-summary .gp-summary-content h2 {
+    margin: 25px 0 0px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #009;
+    background-color: #eee;
+    border: 1px solid #aaa;
+}
+
+.gp-summary .gp-summary-content h2:first-child {
+    margin-top: 0;
+}
+
+.gp-summary .gp-summary-content h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #000;
+}
+
+.gp-summary .gp-summary-content h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #000;
+}
+
+.gp-summary .gp-summary-content h5 {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: italic;
+    color: #000;
+}
+
+.gp-summary .gp-summary-content h6 {
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #000;
+}
+
+/* ================================================================== */
+
+/* TABLE STYLES */
+
+.gp-summary table {
+    width: 100%;
+    background-color: white;
+    /* use fixed layout to avoid problems with content extending off screen */
+    table-layout: fixed;
+}
+
+.gp-summary table th {
+    font-style: italic;
+}
+
+.gp-summary table th,
+.gp-summary table td {
+    padding: 2px 5px 0;
+    text-align: left;
+    vertical-align:top;
+}
+
+.gp-summary table {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.gp-summary h2 + table {
+    border-top: none;
+}
+
+.gp-summary table tr.oddRow {
+    background-color: #fbfbfb;
+}
+
+.gp-summary table td {
+    border-top: 1px solid #ddd;
+}
+
+.gp-summary table td.bold {
+    font-weight: bold;
+}
+
+.gp-summary table th.date {
+    width: 80px;
+}
+
+.gp-summary table tr.supporting-information td {
+    border-top: none!important;
+}
+
+/* ================================================================== */
+
+/* GP SUMMARY FOOTER STYLES */
+
+.gp-summary .gp-summary-footer p#SendTime {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/* ================================================================== */
+
+.gp-summary th.type,
+.gp-summary th.certainty,
+.gp-summary th.severity,
+.gp-summary th.quantity,
+.gp-summary th.reaction,
+.gp-summary th.quantity-duration,
+.gp-summary th.quantity-or-duration,
+.gp-summary th.reason-for-medication,
+.gp-summary th.dosage-instructions {
+    width: 120px;
+}
+.gp-summary th.value {
+    width: 200px;
+}
+.gp-summary th.description,
+.gp-summary th.medication-item {
+	min-width: 45%;
+}
+
+/* common.css
+#============== */
+
+
+.accordion-body {
+    overflow-x: auto;
+}
+
+.accordion-border
+{
+    border:2px solid #D0E8E8;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.accordion-border-open
+{
+    border:2px solid #80A0B0;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.accordion .well .accordion-group {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.accordion-body {
+    background-color: #ffffff !important;
+}
+
+.accordion-heading {
+    padding: 0px !important;
+    background-color: #eee;
+    font-size: 1.2em;
+}
+
+.accordion-toggle {
+    text-decoration: none !important;
+}
+
+.accordion-heading .item-right .btn {
+    margin-top: 3px;
+}
+
+.item-left {
+   float: left;
+}
+
+.item-right {
+   float: right;
+}
+
+.item-clear-both {
+   clear: both;
+}
+
+.print-preview .accordion-inner {
+    padding: 0 !important;
+    border-top: 1px solid #e5e5e5;
+}
+
+.print-preview .accordion-border {
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.print-preview .accordion-border-open {
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.print-preview .accordion-group {
+    border-bottom: 0;
+}
+
+.print-preview .collapse {
+    display: block !important;
+    height: auto !important;
+}
+
+/* gradient.css
+#============== */
+
+.white3D {
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+}
+

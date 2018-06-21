@@ -1,0 +1,44 @@
+.indicator-action-padded {
+    padding-top: 40px
+}
+.indicator-header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.indicator-detail {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.indicator-warning-icon {
+    color: #CF2A28;	
+}
+
+.indicator-warning-text {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.indicator-modal {
+    width: 900px;
+    max-width: 900px;
+    margin-left: -456px;
+}
+
+#assessment_date_label {
+	width: 178px;
+}
+
+#fgm_guidance_label {
+    width: 770px;
+}
+
+.radio.inline + .radio.inline {
+	margin-left: 0px !important;
+}
+
+#had_fgm_guidance {
+	display: none;
+}

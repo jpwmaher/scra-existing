@@ -1,0 +1,73 @@
+.tablesorter-blue th {
+    color: #3d3d3d;
+    background-color: #fff;
+    padding: 4px;
+    vertical-align: top;
+
+    /*clone of .gradientBackgroundLight class in master.css */
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#FCFCFC, endColorStr=#D4D7D8 );
+    background-image: -ms-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: -moz-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: -o-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FCFCFC),
+        color-stop(1, #D4D7D8) );
+    background-image: -webkit-linear-gradient(top, #FCFCFC 0%, #D4D7D8 100%);
+    background-image: linear-gradient(to bottom, #FCFCFC 0%, #D4D7D8 100%);
+    zoom: 1;
+}
+
+.tablesorter-blue td {
+    color: #3d3d3d;
+    background-color: #fff;
+    padding: 4px;
+    vertical-align: top;
+
+    /*clone of .gradientBackgroundLight class in maste.css */
+    filter:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ffffff,endColorStr=#EFEFF4);
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: -o-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #EFEFF4));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #EFEFF4 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #EFEFF4 100%); 
+}
+
+.loading-bar {
+    background-image: none;
+}
+
+.required, .mandatory {
+	*zoom: expression(
+	    this.runtimeStyle.zoom="1",
+	    this.insertBefore(document.createElement("span"), this.firstChild).className="before"
+	);
+}
+
+.required .before {
+	*zoom: expression(
+        this.runtimeStyle.zoom="1",
+        this.innerHTML='**'
+    );
+}
+
+.mandatory .before {
+    *zoom: expression(
+        this.runtimeStyle.zoom="1",
+        this.innerHTML='*'
+    );
+}
+.button-margin {
+    margin-bottom: 0px!important;
+}
+
+#immigrationStatusHistoryTable {
+	border-collapse: collapse;
+	border: 1px solid #dddddd;
+}
+#patientTable {
+    border-collapse: collapse !important;
+}
+#patientTable>tbody>tr>td {
+    border: 1px solid #dddddd;
+}
