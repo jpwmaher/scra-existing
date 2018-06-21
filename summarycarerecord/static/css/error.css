@@ -1,0 +1,59 @@
+body {
+    background-color: #F5F5F5;
+}
+.gradientBackgroundAlt1 {
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#4A5D82, endColorStr=#152134 );
+    background-image: -ms-linear-gradient(top, #4A5D82 0%, #152134 100%);
+    background-image: -moz-linear-gradient(top, #4A5D82 0%, #152134 100%);
+    background-image: -o-linear-gradient(top, #4A5D82 0%, #152134 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4A5D82),
+        color-stop(1, #152134) );
+    background-image: -webkit-linear-gradient(top, #4A5D82 0%, #152134 100%);
+    background-image: linear-gradient(to bottom, #4A5D82 0%, #152134 100%);
+    zoom: 1;
+}
+
+.errorHeader {
+	color: white;
+}
+.errorBody {
+	margin: 20px 150px;
+    padding: 10px;
+    background-image: url(../images/redBorder.gif);
+    border: 1px solid #831217;
+}
+
+.errorBody-inner {
+    background-color: white;
+    padding: 5px;
+}
+
+.errorBody h2 {
+	color: black;
+	background-image: url(../images/crossIcon.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    padding: 6px 0 8px 35px;
+}
+
+.errorBody > div {
+    padding: 15px;
+}
+
+.errorBody p {
+	  margin: 0;
+	  padding: 6px 0 8px 35px;
+}
+.shadowblur {
+	box-shadow: 3px 3px 4px #373634; 
+	-webkit-box-shadow: 3px 3px 4px #373634;
+	-moz-box-shadow: 3px 3px 4px #373634; 
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4,Direction=135,Color='#373634');
+    zoom: 1;
+} 
+.errorDetail {
+	font-family: monospace;
+	padding-left: 60px;
+}

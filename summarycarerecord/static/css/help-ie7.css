@@ -1,0 +1,13 @@
+.help-content tr {
+    border-bottom: 1px solid;
+}
+.help-content #menu-panel {
+    left: 20px;
+    top: 90px;
+}
+.help-content {
+    zoom: 1;
+}
+.help-content .section {
+    display: block;
+}

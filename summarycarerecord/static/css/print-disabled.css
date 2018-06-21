@@ -1,0 +1,27 @@
+.print-only {
+	display: block !important;
+}
+
+.print-disabled {
+    display: none !important;
+}
+
+#content {
+	display: none !important;
+}
+
+#content-print-disabled {
+	display: block !important;
+}
+
+#footer {
+	display: none !important;
+}
+
+.mergetd {
+    height:20px;
+}
+
+.sortableCollection {
+    list-style-type:none;
+}

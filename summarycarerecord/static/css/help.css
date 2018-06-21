@@ -1,0 +1,179 @@
+body {
+    background-color: #78C183;
+}
+.gradientBackgroundAlt1 {
+    filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,
+        startColorStr=#329410, endColorStr=#304B25 );
+    background-image: -ms-linear-gradient(top, #329410 0%, #304B25 100%);
+    background-image: -moz-linear-gradient(top, #329410 0%, #304B25 100%);
+    background-image: -o-linear-gradient(top, #329410 0%, #304B25 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #329410),
+        color-stop(1, #304B25) );
+    background-image: -webkit-linear-gradient(top, #329410 0%, #304B25 100%);
+    background-image: linear-gradient(to bottom, #329410 0%, #304B25 100%);
+    zoom: 1;
+}
+#content {
+	margin: 0 20px 0 225px;
+	background: white;
+}
+.help-content #menu-panel {
+    position: fixed;
+    width: 200px;
+    left: 20px;
+    border: 2px solid #328714;
+    background-color: #D6E9CF;
+}
+.help-content #menu-panel li {
+    list-style-type: none;
+    margin-top: 7px;
+}
+.help-content #menu-panel li.level2 {
+    border-bottom: 1px solid #A6CF96;
+    padding: 0 3px;
+}
+.help-content #menu-panel li.level2.active {
+    background-color: white;
+    border-top: 1px solid #328714;
+    border-left: 1px solid #328714;
+    border-bottom: 1px solid #328714;
+}
+.help-content #menu-panel li.level2.active a {
+    font-weight: bold!important;
+    text-decoration: none;
+    cursor: default;
+}
+.help-content .level1 ul {
+    margin-left: 10px;
+}
+.help-content #menu-panel a {
+    color: black;
+}
+.help-content #menu-panel .level1 a {
+    font-size: 14px;
+    font-weight: bold;
+}
+.help-content #menu-panel .level2 a {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.help-content #content-panel {
+    background-color: white;
+    padding: 10px;
+}
+.help-banner {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+}
+.help-content h1,
+.help-content h2 {
+    background-image: url(../images/gear.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding: 0 0 0 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-bottom: 1px solid #C5C5C5;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.help-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.help-content h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.help-content .indent-block {
+    background-color: #f5f5f5;
+    padding: 10px 10px 5px 10px;
+    margin: 0 40px 10px 40px;
+}
+
+.help-content .indent-block h4 {
+    margin-top: 0;
+}
+.help-content .redOK {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    padding: 0 3px;
+}
+.help-content table {
+    background-color: #f5f5f5;
+    margin: 10px 0;
+    width: 100%;
+}
+.help-content th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid #C5C5C5;
+    padding: 2px 10px;
+}
+.help-content td {
+    vertical-align: top;
+    padding: 2px 10px;
+    border-bottom: 1px solid #C5C5C5;
+}
+.help-content a {
+    font-weight: normal;
+}
+.help-content ul>li {
+    list-style-type: square;
+}
+.help-content .underline {
+    text-decoration: underline;
+}
+.help-content .notrecorded {
+    font-style: italic;
+    color: #C5C5C5;
+}
+.help-content #frequentlyaskedquestions li {
+    border-bottom: 1px solid #C5C5C5;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.help-content #frequentlyaskedquestions li p {
+    font-weight: normal;
+}
+.tick {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
+.cross {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.help-content td:first-child {
+    width: 170px;
+}
+.help-content #glossary td:first-child {
+    font-weight: bold;
+}
+.help-content .section {
+    display: none;
+}
+.spacer {
+    padding:0px!important;
+    display: inline!important;
+}
+#gototop {
+    margin: 0 0 40px;
+}
+.flashBanner-container {
+    padding-top:0;
+    background: white;
+}
+#masterHeader {
+	height: 60px;
+}
+}

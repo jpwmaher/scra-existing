@@ -1,0 +1,380 @@
+ul.inline>li,ol.inline>li {
+	*display: inline; /* IE7 fix */
+	*zoom: 1; /* hasLayout IE7 trigger */
+}
+
+/* HEADER MENU STYLES */
+/* make the header menu more compact */
+#header .navbar-nhslogo {
+	padding-top: 0;
+	padding-left: 10px;
+}
+
+#header .navbar-inner .brand {
+	float: right;
+	padding: 4px 0;
+	font-size: 18px;
+}
+
+#header .nav li a {
+	padding: 4px 15px;
+}
+
+#header .navbar-inner {
+	min-height: 30px;
+}
+
+
+
+/* MASTER HEADER STYLES */
+#masterHeaderBlock h1 {
+	margin-bottom: 5px;
+}
+
+#masterHeaderBlock .lead {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#masterHeaderBlock #primary-tabs {
+	margin-top: 5px;
+}
+
+
+/* TAB STYLES */
+.nav-tabs>li>a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 30px;
+}
+
+.nav-tabs>li>a.disabled {
+    color: gray;
+    cursor: default;
+}
+
+.nav-tabs>li>a:hover.disabled {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.input-xmini {
+    width: 7%;
+}
+
+.input-mini {
+	width: 15%;
+}
+
+.input-small {
+	width: 25%;
+}
+
+.input-medium {
+	width: 50%;
+}
+
+.input-large {
+	width: 60%;
+}
+
+.input-xlarge {
+	width: 75%;
+}
+
+.input-xxlarge {
+	width: 95%;
+}
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  padding: 2px 4px;
+}
+
+.btn-link {
+  color: #006bbb;
+}
+
+.alert-success {
+  color: #468847;
+}
+
+.alert-warning {
+  color: #8a6733;
+}
+
+.alert-info {
+  color: #31708f;
+}
+
+.alert-danger,
+.alert-error {
+  color: #a94442;
+}
+
+.uneditable-input,
+.uneditable-textarea {
+  color: #6e6e6e;
+}
+
+.subtext {
+    font-size: 85%;
+    color: #6e6e6e;
+    font-style: italic;
+}
+
+.highlight {
+    color: #e10000;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+/* DEFINITION LIST STYLES */
+
+.data-list {
+	margin: 10px 0;
+}
+
+.data-list dl {
+	margin: 4px 0;
+}
+
+.data-list dl dt {
+	white-space: normal;
+	width: 200px;
+	font-weight: normal;
+}
+
+.data-list dl dd {
+	margin-left: 220px;
+}
+
+/* adjust column layout for blocks with long content */
+.data-list.wide-content dt {
+	width: 25%;
+}
+
+.data-list.wide-content dd {
+	margin-left: 27%;
+}
+
+.lead {
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+
+.fixed-top {
+	top: 0;
+}
+
+.fixed-bottom {
+	bottom: 0;
+}
+
+.uneditable-input {
+	background-color: transparent;
+	border: 0px;
+	border-radius: 0px;
+	cursor: auto;
+	box-shadow: 0px 0px 0px;
+}
+
+.alert {
+    margin-bottom: 10px;
+}
+
+.well {
+	margin-bottom: 15px;
+}
+
+
+/* FORM STYLES */
+
+form {
+	margin: 0;
+}
+
+.form-horizontal {
+	padding-top: 10px;
+}
+
+.form-horizontal .control-group {
+	margin-bottom: 5px;
+}
+
+.form-actions {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 9px 20px 0;
+    background-color: inherit;
+}
+
+.additional-row {
+    border-top: 1px solid #C5C5C5;
+}
+
+
+
+/* DATA TABLES STYLES */
+
+.dataTables_paginate.pagination ul {
+	white-space: nowrap; /* IE7 - prevent table pagination controls wrapping */
+}
+
+.dataTables_paginate.pagination ul li {
+	*display: inline; zoom: 1;  /* IE7 - prevent table pagination controls wrapping */
+}
+
+.dataTables_filter {
+	white-space: nowrap; /* IE7 - prevent table filter controls wrapping */
+}
+
+/* Fix for SPIII-10319 */
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block,
+.form-horizontal .uneditable-input + .help-block,
+.form-horizontal .input-prepend + .help-block,
+.form-horizontal .input-append + .help-block {
+  margin-top: 0px;
+}
+
+.table th, .table td{
+    vertical-align:middle !important;
+}
+
+/* MODAL DIALOG BOX STYLES */
+
+.modal-ovmHistory {
+    left: 15%;
+    width: 70%;
+    max-height: 90%;
+    margin-left: 0px; /* Do not need pixel based margin, this is controlled using 'left' */
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.modal-ovmHistory-body {
+  max-height: 90%
+}
+
+.modal-review {
+    left: 15%;
+    width: 70%;
+    max-height: 80%;
+    margin-left: 0px; /* Do not need pixel based margin, this is controlled using 'left' */
+    text-align: left;
+}
+
+.modal-bna {
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    margin-left: 0px; /* Do not need pixel based margin, this is controlled using 'left' */
+}
+
+.modal-body-bna {
+    max-height: 90%;
+    padding: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.modal.fade.in {
+    top: 5%;
+}
+
+.modal-review-body {
+  background-color: #f5f5f5;
+}
+
+.control-label-bna {
+	width: 120px !important;
+}
+
+.controls-bna {
+	margin-left: 125px !important;
+    padding-left: 10px !important;
+}
+
+#birthNotificationListTable tbody tr:hover td {
+    background-color: #87cefa;
+    cursor: pointer;
+}
+#birthNotificationListTable tbody tr.selectedRow td {
+    background-color: #FFCC66 !important;
+}
+
+select,
+input[type="file"] {
+  height: 26px;
+}
+
+.table-hover tbody tr:hover > td {
+  background-color: blue;
+}
+
+table#pharmacyFinderResults.table-hover tbody tr:hover > td {
+    background-color: lightblue;
+}
+
+.table-hover tbody tr:hover > td > a {
+  color: white;
+}
+
+.select-edit-name {
+  height: 26px;
+}
+
+#patientEncounterPanel {
+  margin-left:0;
+}
+
+ul#systemData, ul.ovm-system-data-container {
+    list-style: none;
+}
+
+ul#systemData li, ul.ovm-system-data-container li {
+    display: inline;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ovmLeftPanel {
+    min-height: 345px;
+}
+
+.mvLeftPanel {
+    width: 48.9362%;
+    float: left;
+    margin-top: 0.5%;
+}
+
+.mvRightPanel {
+    width: 48.9362%;
+    float: right;
+    margin-top: 0.5%;
+}
+
+.csDetailsPanel {
+    margin-left:0 !important;
+}
