@@ -1,55 +1,55 @@
-
-
-
-
-
 <!DOCTYPE html>
+
+
+
+
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="Pragma" content="no-cache" />
-        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-        <meta http-equiv="Expires" content="0" />
-        <!--[if lt IE 9]>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Expires" content="0" />
+    <!--[if lt IE 9]>
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <![endif]-->
-        <meta scra-help-link="patientsearch" />
-        <meta patient-details="" />
+    <meta scra-help-link="patientsearch" />
+    <meta patient-details="" />
 
-        <title>NHS Summary Care Record - Find a patient</title>
+    <title>NHS Summary Care Record - Find a patient</title>
 
-        <link rel="shortcut icon" href="/summarycarerecord/common/static/img/favicon.ico"/>
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/bootstrap-2.3.2.css" rel="stylesheet"  media="all" />
-        
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/bootstrap-2.3.2.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/bootstrap-overrides.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.core-1.10.4.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.datepicker-1.10.4.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.theme.smoothness-1.10.4.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.accordion-1.10.4.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/lib/font-awesome-3.2.1.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/master.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/master-ie10.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/gpsummary.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/gpconnect.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/jquery.pageslide-2.0.css" rel="stylesheet"  media="all" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/indicators.css" rel="stylesheet"  media="all" />
-        
-        <!--[if IE 7]>
+    <link rel="shortcut icon" href="/summarycarerecord/common/static/img/favicon.ico" />
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/bootstrap-2.3.2.css" rel="stylesheet" media="all" />
+
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/bootstrap-2.3.2.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/bootstrap-overrides.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.core-1.10.4.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.datepicker-1.10.4.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.theme.smoothness-1.10.4.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.ui.accordion-1.10.4.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/common/static/css/lib/font-awesome-3.2.1.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/master.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/master-ie10.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/gpsummary.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/gpconnect.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/jquery.pageslide-2.0.css" rel="stylesheet" media="all" />
+
+    <link type="text/css" href="/summarycarerecord/static/css/indicators.css" rel="stylesheet" media="all" />
+
+    <!--[if IE 7]>
             
             <link type="text/css" href="/summarycarerecord/common/static/css/lib/font-awesome-ie7-3.2.1.css" rel="stylesheet"  media="all" />
             
@@ -58,204 +58,172 @@
             <link type="text/css" href="/summarycarerecord/static/css/bootstrap-ie7buttons.css" rel="stylesheet"  media="all" />
             
         <![endif]-->
-        
-        <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.dataTables-1.10.3.css" rel="stylesheet"  media="screen" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/jquery.dataTables.css" rel="stylesheet"  media="screen" />
-        
-        <link type="text/css" href="/summarycarerecord/static/css/DT_bootstrap.css" rel="stylesheet"  media="screen" />
-        
 
-        
-        
-        <link type="text/css" href="/summarycarerecord/static/css/print-disabled.css" rel="stylesheet"  media="print" />
-        
-        
-        
-        
-        
+    <link type="text/css" href="/summarycarerecord/common/static/css/lib/jquery.dataTables-1.10.3.css" rel="stylesheet" media="screen" />
 
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/ba-debug-0.4.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery-1.9.1.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/bootstrap-2.3.2.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.core-1.10.4.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.widget-1.10.4.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.accordion-1.10.4.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.datepicker-1.10.4.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.dataTables-1.10.3.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/lib/DT_bootstrap.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.placeholder-2.0.7.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery-scrollto-1.4.4.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/common/static/js/spine/browser.js"></script>
-        
+    <link type="text/css" href="/summarycarerecord/static/css/jquery.dataTables.css" rel="stylesheet" media="screen" />
 
-        
-            <script type="text/javascript" src="/summarycarerecord/static/js/scr/pharmacyfinder.js"></script>
-        
+    <link type="text/css" href="/summarycarerecord/static/css/DT_bootstrap.css" rel="stylesheet" media="screen" />
 
-        
-        <script type="text/javascript">
-            var sessionUserId="093895563513";
-            var sessionTokenId="9c147691-9f4c-482c-80b7-1f2ef3a5b60c";
-        </script>
-        
-        <script async type="text/javascript" src="/summarycarerecord/sessionexpiry/static/js/jquery-session-state.js"></script>
-        
-        
-      
 
-        
-        
-        <p id="errorsMsg" aria-hidden="true" style="display: none;"></p>
-    </head>
-    <body>
-        <div id="print-preview-controls" class="print-preview-only">
-            <a href="#" id="printLink" class="btn btn-small btn-right-space" title="Print page" name="Print page">Print</a>
-            <a href="#" id="closePrintPreviewLink" class="btn btn-small" title="Close print preview" name="Close print preview">Back to previous screen</a>
-            
-            
+
+
+    <link type="text/css" href="/summarycarerecord/static/css/print-disabled.css" rel="stylesheet" media="print" />
+
+
+
+
+
+
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/ba-debug-0.4.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery-1.9.1.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/bootstrap-2.3.2.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.core-1.10.4.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.widget-1.10.4.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.accordion-1.10.4.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.ui.datepicker-1.10.4.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.dataTables-1.10.3.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/lib/DT_bootstrap.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery.placeholder-2.0.7.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/lib/jquery-scrollto-1.4.4.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/common/static/js/spine/browser.js"></script>
+
+
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/pharmacyfinder.js"></script>
+
+
+
+    <script type="text/javascript">
+        var sessionUserId = "093895563513";
+        var sessionTokenId = "9c147691-9f4c-482c-80b7-1f2ef3a5b60c";
+
+    </script>
+
+    <script async type="text/javascript" src="/summarycarerecord/sessionexpiry/static/js/jquery-session-state.js"></script>
+
+
+
+
+
+
+    <p id="errorsMsg" aria-hidden="true" style="display: none;"></p>
+</head>
+
+<body>
+    <div id="print-preview-controls" class="print-preview-only">
+        <a href="#" id="printLink" class="btn btn-small btn-right-space" title="Print page" name="Print page">Print</a>
+        <a href="#" id="closePrintPreviewLink" class="btn btn-small" title="Close print preview" name="Close print preview">Back to previous screen</a>
+
+
+    </div>
+
+    <div id="header" class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <div class="pull-left print-only">
+                    <h2 id="print-title" tabindex="0">
+
+                        Summary Care Record
+
+                    </h2>
+                </div>
+                <img class="navbar-nhslogo pull-right" src="/summarycarerecord/common/static/img/NHS_Logo.gif" width="53" height="26" alt="NHS Logo Image" />
+                <span class="brand">Summary Care Record</span>
+                <ul class="nav print-disabled" role="navigation" aria-label="main menu">
+
+
+
+                    <li><a href="/summarycarerecord/patientsearch" id="BasicSearch" class="globalLinksText globalLinksTextLast">Find a patient</a></li>
+
+
+
+
+
+                    <li><a id="Changerole" href="/summarycarerecord/changerole" class="globalLinksText globalLinksTextLast">Change role</a></li>
+
+
+
+
+
+
+
+                    <li><a href="#" id="HelpLinkGlobal" class="globalLinksText globalLinksTextLast" title="Help screen will open in new window">Help</a></li>
+
+
+
+
+                    <li><a href="/summarycarerecord/logout" id="Exit" class="globalLinksText globalLinksTextLast">Exit</a></li>
+
+
+
+                </ul>
+            </div>
         </div>
-        
-        <div id="header" class="navbar navbar-fixed-top">
-            <div class="navbar-inner">
-                <div class="container-fluid">
-                    <div class="pull-left print-only">
-                        <h2 id="print-title" tabindex="0">
-                            
-                            Summary Care Record
-                            
-                        </h2>
+    </div>
+
+    <div id="content">
+
+
+
+        <div id="masterHeader" class="gradientBackgroundAlt1">
+
+
+            <div id="masterHeaderBlock" class="container-fluid print-disabled">
+
+                <div class="row-fluid" role="banner">
+                    <p tabindex="0" class="lead pull-right">Please search for a patient by either entering their details or <a href="#nhsNumber" id="linkNHSFocus">NHS number</a></p>
+                    <h1 tabindex="0">Find a patient</h1>
+                </div>
+                <div id="primary-tabs" class="row-fluid print-disabled" role="navigation">
+                    <div class="span12">
+                        <ul id="searchTabs" class="nav nav-tabs" role="tablist">
+                            <li><a href="#basicsearch" data-toggle="tab" id='basicTab' aria-describedby="basictab_desc" role="tab">Basic</a></li>
+                            <li><a href="#advancedsearch" data-toggle="tab" id='advancedTab' aria-describedby="advancedtab_desc" role="tab">Advanced</a></li>
+
+
+                        </ul>
+                        <div id="basictab_desc" aria-hidden="true" style="display: none;">Basic Search Tab</div>
+                        <div id="advancedtab_desc" aria-hidden="true" style="display: none;">Advanced Search Tab</div>
+                        <div id="postcodetab_desc" aria-hidden="true" style="display: none;">Postcode Search Tab</div>
+                        <div id="allocatetab_desc" aria-hidden="true" style="display: none;">Allocate Tab</div>
                     </div>
-                    <img class="navbar-nhslogo pull-right" 
-                    src="/summarycarerecord/common/static/img/NHS_Logo.gif" 
-                    width="53" height="26"
-                    alt="NHS Logo Image" />
-                    <span class="brand">Summary Care Record</span>
-                    <ul class="nav print-disabled" role="navigation" aria-label="main menu">
-                         
-        
-    
-        <li><a href="/summarycarerecord/patientsearch" id="BasicSearch"   class="globalLinksText globalLinksTextLast" >Find a patient</a></li>
-    
-    
-    
-    
-        
-            <li><a id="Changerole" href="/summarycarerecord/changerole" class="globalLinksText globalLinksTextLast">Change role</a></li>
-        
-    
-    
-    
-    
-    
-    
-    <li><a href="#" id="HelpLinkGlobal"   class="globalLinksText globalLinksTextLast" title="Help screen will open in new window">Help</a></li>
-    
-    
-    
-    
-        <li><a href="/summarycarerecord/logout" id="Exit"   class="globalLinksText globalLinksTextLast" >Exit</a></li>
-    
+                </div>
+
+            </div>
+
+            <div class="container-fluid flashBanner-container">
+                <div id="flashBanner" class="print-disabled">
 
 
-                    </ul>
+
+
+
+
+
+
+
+
                 </div>
             </div>
         </div>
-        
-        <div id="content">
-            
-            
-            
-            <div id="masterHeader" class="gradientBackgroundAlt1">
-                
-                
-                <div id="masterHeaderBlock" class="container-fluid print-disabled">
-                    
-<div class="row-fluid" role="banner">
-    <p  tabindex="0" class="lead pull-right">Please search for a patient by either entering their details or <a href="#nhsNumber" id="linkNHSFocus">NHS number</a></p>
-    <h1 tabindex="0">Find a patient</h1>
-</div>
-<div id="primary-tabs" class="row-fluid print-disabled" role="navigation">
-    <div class="span12">
-        <ul id="searchTabs" class="nav nav-tabs" role="tablist">
-            <li><a href="#basicsearch" data-toggle="tab" id='basicTab' aria-describedby="basictab_desc" role="tab">Basic</a></li> 
-            <li><a href="#advancedsearch" data-toggle="tab" id='advancedTab' aria-describedby="advancedtab_desc" role="tab">Advanced</a></li>
-            
-            
-        </ul>
-        <div id="basictab_desc" aria-hidden="true" style="display: none;">Basic Search Tab</div>
-        <div id="advancedtab_desc" aria-hidden="true" style="display: none;">Advanced Search Tab</div>
-        <div id="postcodetab_desc" aria-hidden="true" style="display: none;">Postcode Search Tab</div>
-        <div id="allocatetab_desc" aria-hidden="true" style="display: none;">Allocate Tab</div>
-    </div>
-</div>
-
-                </div>
-                
-                <div class="container-fluid flashBanner-container">
-                    <div id="flashBanner" class="print-disabled">
-                        
+        <div id="masterBody" class="container-fluid" style="padding-top: 102px;">
 
 
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-                    </div>
-                </div>
-            </div>            
-            <div id="masterBody" class="container-fluid" style="padding-top: 102px;">
-
-                
-<div class="row-fluid">
-    <span class="span7" id="leftPanel">
+            <div class="row-fluid">
+                <span class="span9" id="leftPanel">
         
 
 
@@ -388,266 +356,268 @@
       
             <input type="button" name="postcodeLookupBtn" id="postcodeLookupBtn_basicsearch" class="btn btn-link postcodelookup" value="Address &amp; Postcode Lookup">
             <span class="help-block" id="addresssummary_basicsearch"></span>
-        
-      
-      
-    </div>
-</div>
+
+
+
+            </div>
+        </div>
 
         <div class="form-actions">
-          <input name="basicSearchBtn" id="basicSearchBtn" type="submit"  title="Search for the patient" class="btn btn-primary " value="Find"/>
-          <input name="clearBasicSearchBtn" id="clearBasicSearchBtn" type="button" title="Clear" class="btn btn-link" value="Clear"/>
+            <input name="basicSearchBtn" id="basicSearchBtn" type="submit" title="Search for the patient" class="btn btn-primary " value="Find" />
+            <input name="clearBasicSearchBtn" id="clearBasicSearchBtn" type="button" title="Clear" class="btn btn-link" value="Clear" />
         </div>
-    </form>
+        </form>
 
-</div>
-        
-
-
-
-
-<div class="well well-small ">
-
-
-    
-    <div class="row-fluid container-header">
-    <div class="span6">
-        <h2 tabindex="0">Find by NHS Number</h2>
-        
     </div>
-    <div class="span6" style="text-align: right;">
-        
-        <em class="highlight">*</em> <em><small>Denotes required field</small></em>
-    
-    </div>
-</div>
-    <form id="nhsNumberSearchForm" name="NhsNumberSearch" method="post" action="/summarycarerecord/nhsnumberpatientsearch" autocomplete="off" class="form-horizontal">
-        <input type="hidden" name="sessionTokenId" value="9c147691-9f4c-482c-80b7-1f2ef3a5b60c">
-        
 
-<div id="nhsNumber_row" class="control-group">
-    <label id="nhsNumber_label" class="control-label mandatory " for="nhsNumber">
+
+
+
+
+    <div class="well well-small ">
+
+
+
+        <div class="row-fluid container-header">
+            <div class="span6">
+                <h2 tabindex="0">Find by NHS Number</h2>
+
+            </div>
+            <div class="span6" style="text-align: right;">
+
+                <em class="highlight">*</em> <em><small>Denotes required field</small></em>
+
+            </div>
+        </div>
+        <form id="nhsNumberSearchForm" name="NhsNumberSearch" method="post" action="/summarycarerecord/nhsnumberpatientsearch" autocomplete="off" class="form-horizontal">
+            <input type="hidden" name="sessionTokenId" value="9c147691-9f4c-482c-80b7-1f2ef3a5b60c">
+
+
+            <div id="nhsNumber_row" class="control-group">
+                <label id="nhsNumber_label" class="control-label mandatory " for="nhsNumber">
         
         NHS Number
     </label>
-    <div class="controls">
-      
-        
-      
-      
-      
-      <input aria-required="true" class="input-small" id="nhsNumber" maxlength="12" name="nhsNumber" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-        <div class="form-actions">
-          <input name="nhsNumberSearchBtn" id="nhsNumberSearchBtn" type="submit"  title="Search for the patient" class="btn btn-primary " value="Find"/>
-          <input name="nhsNumberClearBtn" id="nhsNumberClearBtn" type="button" title="Clear" class="btn btn-link" value="Clear"/>
-        </div>
-    </form>
+                <div class="controls">
 
-</div>
+
+
+
+
+                    <input aria-required="true" class="input-small" id="nhsNumber" maxlength="12" name="nhsNumber" type="text" value="">
+
+
+
+                </div>
+            </div>
+            <div class="form-actions">
+                <input name="nhsNumberSearchBtn" id="nhsNumberSearchBtn" type="submit" title="Search for the patient" class="btn btn-primary " value="Find" />
+                <input name="nhsNumberClearBtn" id="nhsNumberClearBtn" type="button" title="Clear" class="btn btn-link" value="Clear" />
+            </div>
+        </form>
+
+    </div>
     </div>
     <div class="tab-pane " id="advancedsearch" role="tabpanel">
-        
-<div class="well well-small ">
+
+        <div class="well well-small ">
 
 
-    <div class="row-fluid container-header">
-    <div class="span6">
-        <h2 tabindex="0">Enter patient details</h2>
-        
-    </div>
-    <div class="span6" style="text-align: right;">
-        <p class="text-right"><em class="highlight">*</em> <em><small>Denotes required field</small></em></p>
-    </div>
-</div><form id="advancedSearchForm" name="AdvancedSearch" method="post" action="/summarycarerecord/advancedpatientsearch" autocomplete="off" class="form-horizontal">
-        <input type="hidden" name="sessionTokenId" value="9c147691-9f4c-482c-80b7-1f2ef3a5b60c">
+            <div class="row-fluid container-header">
+                <div class="span6">
+                    <h2 tabindex="0">Enter patient details</h2>
 
-        <input type="hidden" name="addressPaf" value="" id="addressPaf_advancedsearch" />
-        <input type="hidden" name="addressSummary" value="" id="addressSummary_advancedsearch" />
-        <input type="hidden" name="practiceSummary" value="None" id="practiceSummary" />
-        
+                </div>
+                <div class="span6" style="text-align: right;">
+                    <p class="text-right"><em class="highlight">*</em> <em><small>Denotes required field</small></em></p>
+                </div>
+            </div>
+            <form id="advancedSearchForm" name="AdvancedSearch" method="post" action="/summarycarerecord/advancedpatientsearch" autocomplete="off" class="form-horizontal">
+                <input type="hidden" name="sessionTokenId" value="9c147691-9f4c-482c-80b7-1f2ef3a5b60c">
 
-<div id="gender_advancedsearch_row" class="control-group">
-    <label class="control-label mandatory" for="gender_advancedsearch">
+                <input type="hidden" name="addressPaf" value="" id="addressPaf_advancedsearch" />
+                <input type="hidden" name="addressSummary" value="" id="addressSummary_advancedsearch" />
+                <input type="hidden" name="practiceSummary" value="None" id="practiceSummary" />
+
+
+                <div id="gender_advancedsearch_row" class="control-group">
+                    <label class="control-label mandatory" for="gender_advancedsearch">
        
         Gender
     </label>
-    <div class="controls">
-        
-        
-        
-        
-            <label class="radio inline">
+                    <div class="controls">
+
+
+
+
+                        <label class="radio inline">
                 <input aria-required="true" id="gender_advancedsearch-0" name="gender" type="radio" value="2">
                 <label for="gender_advancedsearch-0">Female</label>
-            </label>
-        
-            <label class="radio inline">
+                        </label>
+
+                        <label class="radio inline">
                 <input aria-required="true" id="gender_advancedsearch-1" name="gender" type="radio" value="1">
                 <label for="gender_advancedsearch-1">Male</label>
-            </label>
-        
-            <label class="radio inline">
+                        </label>
+
+                        <label class="radio inline">
                 <input aria-required="true" id="gender_advancedsearch-2" name="gender" type="radio" value="0">
                 <label for="gender_advancedsearch-2">Not known</label>
-            </label>
-        
-            <label class="radio inline">
+                        </label>
+
+                        <label class="radio inline">
                 <input aria-required="true" id="gender_advancedsearch-3" name="gender" type="radio" value="9">
                 <label for="gender_advancedsearch-3">Not specified</label>
-            </label>
-        
-        
-    </div>
-</div>
-        <div class="groupArea">
+                        </label>
 
-<div id="givenname_advancedsearch_row" class="control-group">
-    <label id="givenname_advancedsearch_label" class="control-label  " for="givenname_advancedsearch">
+
+                    </div>
+                </div>
+                <div class="groupArea">
+
+                    <div id="givenname_advancedsearch_row" class="control-group">
+                        <label id="givenname_advancedsearch_label" class="control-label  " for="givenname_advancedsearch">
         
         First name
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="givenname_advancedsearch" maxlength="35" name="givenname" placeholder="First name or name the patient is known by" title="First name or name the patient is known by" type="text" value="">
-      
-      
-      
-    </div>
-</div>
+                        <div class="controls">
 
-<div id="surname_advancedsearch_row" class="control-group">
-    <label id="surname_advancedsearch_label" class="control-label mandatory " for="surname_advancedsearch">
+
+
+                            <input class="input-xxlarge" id="givenname_advancedsearch" maxlength="35" name="givenname" placeholder="First name or name the patient is known by" title="First name or name the patient is known by" type="text" value="">
+
+
+
+                        </div>
+                    </div>
+
+                    <div id="surname_advancedsearch_row" class="control-group">
+                        <label id="surname_advancedsearch_label" class="control-label mandatory " for="surname_advancedsearch">
         
         Surname
     </label>
-    <div class="controls">
-      
-        
-      
-      
-      
-      <input aria-required="true" class="input-xxlarge" id="surname_advancedsearch" maxlength="35" name="surname" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-<div class="control-group">
-    <div class="controls">
-        <input type="checkbox" id="widenSearch" name="widenSearch" alt="Widen search for similar names or common misspellings" 
-                 title="Widen search for similar names or common misspellings">
-        
-        <label>
+                        <div class="controls">
+
+
+
+
+
+                            <input aria-required="true" class="input-xxlarge" id="surname_advancedsearch" maxlength="35" name="surname" type="text" value="">
+
+
+
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="checkbox" id="widenSearch" name="widenSearch" alt="Widen search for similar names or common misspellings" title="Widen search for similar names or common misspellings">
+
+                            <label>
             Widen search for similar names or common misspellings
         </label>
-        <span class="help-block" tabindex="0">
+                            <span class="help-block" tabindex="0">
                     <img src="static/images/warning_icon_very_small.gif" class="" id="smallWarning" alt="warning" title="warning"/>
                     <em><strong>Checking this box could significantly increase search time</strong>, and requires first name and/or postcode.</em>
                 </span>
-    </div>
-</div></div>
+                        </div>
+                    </div>
+                </div>
 
-<div id="postcode_advancedsearch_row" class="control-group">
-    <label id="postcode_advancedsearch_label" class="control-label  " for="postcode_advancedsearch">
+                <div id="postcode_advancedsearch_row" class="control-group">
+                    <label id="postcode_advancedsearch_label" class="control-label  " for="postcode_advancedsearch">
         
         Postcode
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-small" id="postcode_advancedsearch" maxlength="8" name="postcode" type="text" value="">
-      <span class="addressAndPostcodeLookup">
+                    <div class="controls">
+
+
+
+                        <input class="input-small" id="postcode_advancedsearch" maxlength="8" name="postcode" type="text" value="">
+                        <span class="addressAndPostcodeLookup">
                 <input type="button" name="postcodeLookupBtn" id="postcodeLookupBtn_advancedsearch" class="btn btn-link postcodelookup" value="Address &amp; Postcode Lookup">
                 <br/>
                 <em>You can also use this to search by full address</em>
             </span>
-            <span class="help-block" id="addresssummary_advancedsearch"></span>
-      
-      
-    </div>
-</div>
+                        <span class="help-block" id="addresssummary_advancedsearch"></span>
 
-<div id="dateofbirthfrom_row" class="control-group">
-    <label class="control-label mandatory" for="dateofbirthfrom">
+
+                    </div>
+                </div>
+
+                <div id="dateofbirthfrom_row" class="control-group">
+                    <label class="control-label mandatory" for="dateofbirthfrom">
         
         Date of birth from
     </label>
-    
-    <div class="controls">
-        
-        
-      <input aria-describedby="dateofbirthfrom_info" class="input-small" id="dateofbirthfrom" maxlength="11" name="dateOfBirthFrom" type="text" value="" datepicker='dateofbirthfrom'>
-      
-      &nbsp;&nbsp;<label for="dateofbirthto">to</label>&nbsp;
-      <input aria-describedby="dateofbirthfrom_info" class="input-small" id="dateofbirthto" maxlength="11" name="dateOfBirthTo" type="text" value="" datepicker='dateofbirthto'>
-      
-      
-      
-        <div id="dateofbirthfrom_info" aria-hidden="true" style="display: none;">
-            Enter a date in numeric format, for example 12 space 04 space 2013 for the 12th of April 2013
-        </div>
-    </div>
-</div>
 
-<div id="dateofdeathfrom_row" class="control-group">
-    <label class="control-label " for="dateofdeathfrom">
+                    <div class="controls">
+
+
+                        <input aria-describedby="dateofbirthfrom_info" class="input-small" id="dateofbirthfrom" maxlength="11" name="dateOfBirthFrom" type="text" value="" datepicker='dateofbirthfrom'> &nbsp;&nbsp;
+
+                        <label for="dateofbirthto">to</label>&nbsp;
+                        <input aria-describedby="dateofbirthfrom_info" class="input-small" id="dateofbirthto" maxlength="11" name="dateOfBirthTo" type="text" value="" datepicker='dateofbirthto'>
+
+
+
+                        <div id="dateofbirthfrom_info" aria-hidden="true" style="display: none;">
+                            Enter a date in numeric format, for example 12 space 04 space 2013 for the 12th of April 2013
+                        </div>
+                    </div>
+                </div>
+
+                <div id="dateofdeathfrom_row" class="control-group">
+                    <label class="control-label " for="dateofdeathfrom">
         
         Date of death from
     </label>
-    
-    <div class="controls">
-        
-        
-      <input aria-describedby="dateofdeathfrom_info" class="input-small" id="dateofdeathfrom" maxlength="11" name="dateOfDeathFrom" type="text" value="" datepicker='dateofdeathfrom'>
-      
-      &nbsp;&nbsp;<label for="dateofdeathto">to</label>&nbsp;
-      <input aria-describedby="dateofdeathfrom_info" class="input-small" id="dateofdeathto" maxlength="11" name="dateOfDeathTo" type="text" value="" datepicker='dateofdeathto'>
-      
-      
-      
-        <div id="dateofdeathfrom_info" aria-hidden="true" style="display: none;">
-            Enter a date in numeric format, for example 12 space 04 space 2013 for the 12th of April 2013
-        </div>
-    </div>
-</div>
 
-<div id="practicecode_row" class="control-group">
-    <label id="practicecode_label" class="control-label  " for="practicecode">
+                    <div class="controls">
+
+
+                        <input aria-describedby="dateofdeathfrom_info" class="input-small" id="dateofdeathfrom" maxlength="11" name="dateOfDeathFrom" type="text" value="" datepicker='dateofdeathfrom'> &nbsp;&nbsp;
+
+                        <label for="dateofdeathto">to</label>&nbsp;
+                        <input aria-describedby="dateofdeathfrom_info" class="input-small" id="dateofdeathto" maxlength="11" name="dateOfDeathTo" type="text" value="" datepicker='dateofdeathto'>
+
+
+
+                        <div id="dateofdeathfrom_info" aria-hidden="true" style="display: none;">
+                            Enter a date in numeric format, for example 12 space 04 space 2013 for the 12th of April 2013
+                        </div>
+                    </div>
+                </div>
+
+                <div id="practicecode_row" class="control-group">
+                    <label id="practicecode_label" class="control-label  " for="practicecode">
         
         GP Practice code or GP (GNC) code
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-small" id="practicecode" maxlength="8" name="practiceCode" type="text" value="">
-      <input type="button" name="practiceLookupBtn" id="practiceLookupBtn" class="btn btn-link practicelookup" value="Don't know practice code?">
-                <span class="help-block" id="practicesummary"></span>
-            
-      
-      
-    </div>
-</div><div class="form-actions">
-          <input name="advancedSearchBtn" id="advancedSearchBtn" type="submit"  title="Search for the patient" class="btn btn-primary " value="Find"/>
-          <input name="advancedSearchClearBtn" id="advancedSearchClearBtn" type="submit" title="Clear" class="btn btn-link" value="Clear"/>
+                    <div class="controls">
+
+
+
+                        <input class="input-small" id="practicecode" maxlength="8" name="practiceCode" type="text" value="">
+                        <input type="button" name="practiceLookupBtn" id="practiceLookupBtn" class="btn btn-link practicelookup" value="Don't know practice code?">
+                        <span class="help-block" id="practicesummary"></span>
+
+
+
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <input name="advancedSearchBtn" id="advancedSearchBtn" type="submit" title="Search for the patient" class="btn btn-primary " value="Find" />
+                    <input name="advancedSearchClearBtn" id="advancedSearchClearBtn" type="submit" title="Clear" class="btn btn-link" value="Clear" />
+                </div>
+            </form>
         </div>
-    </form>
-</div>
     </div>
-    
-     
-<input type="hidden" name="activeTab" value="basicsearch" id="activeTab" />
-<input type="hidden" name="allocateEnabled" value="" id="allocateEnabled" />
-</div>
-<div id="proceedToBirthNotificationModal" class="modal hide print-disabled" role="dialog" tabindex="-1" data-backdrop="static">
+
+
+    <input type="hidden" name="activeTab" value="basicsearch" id="activeTab" />
+    <input type="hidden" name="allocateEnabled" value="" id="allocateEnabled" />
+    </div>
+    <div id="proceedToBirthNotificationModal" class="modal hide print-disabled" role="dialog" tabindex="-1" data-backdrop="static">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="close dialog">×</button>
             <h2 tabindex="0">Are you sure you wish to enter a Birth Notification?</h2>
@@ -664,7 +634,7 @@
 
 
     </span>
-    <span class="span5" id="sidePanel">
+    <span class="span3" id="sidePanel">
         
     <style>
       #sidePanel {position: static!important; right: 10px;}
@@ -701,501 +671,430 @@
 </div>
         <div class="row-fluid" tabindex="0">
             <span class="">Please enter as much information as you can</span>
-        </div>
-        
-        <div class="form-horizontal">
-        
-            
+    </div>
 
-<div id="practicename_row" class="control-group">
-    <label id="practicename_label" class="control-label  " for="practicename">
+    <div class="form-horizontal">
+
+
+
+        <div id="practicename_row" class="control-group">
+            <label id="practicename_label" class="control-label  " for="practicename">
         
         Practice
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="practicename" maxlength="40" name="practiceName" placeholder="Practice Name" size="35" title="Practice Name" type="text" value="">
-       
-      
-      
-    </div>
-</div>
-            
+            <div class="controls">
 
-<div id="practiceaddress_row" class="control-group">
-    <label id="practiceaddress_label" class="control-label  " for="practiceaddress">
+
+
+                <input class="input-xxlarge" id="practicename" maxlength="40" name="practiceName" placeholder="Practice Name" size="35" title="Practice Name" type="text" value="">
+
+
+
+            </div>
+        </div>
+
+
+        <div id="practiceaddress_row" class="control-group">
+            <label id="practiceaddress_label" class="control-label  " for="practiceaddress">
         
         Address
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="practiceaddress" maxlength="40" name="practiceAddress" placeholder="Street Name or Town" size="35" title="Street Name or Town" type="text" value="">
-       
-      
-      
-    </div>
-</div>
-            
+            <div class="controls">
 
-<div id="practicepostcode_row" class="control-group">
-    <label id="practicepostcode_label" class="control-label  " for="practicepostcode">
+
+
+                <input class="input-xxlarge" id="practiceaddress" maxlength="40" name="practiceAddress" placeholder="Street Name or Town" size="35" title="Street Name or Town" type="text" value="">
+
+
+
+            </div>
+        </div>
+
+
+        <div id="practicepostcode_row" class="control-group">
+            <label id="practicepostcode_label" class="control-label  " for="practicepostcode">
         
         Postcode
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-small" id="practicepostcode" maxlength="8" name="practicePostCode" placeholder="Postcode" size="8" title="Postcode" type="text" value="">
-       
-      
-      
-    </div>
-</div>
-    
-            <div class="form-actions">
-                <input name="practiceCodeFinderFindBtn" id="practiceCodeFinderFindBtn" type="submit"  title="Find GP practice" class="btn btn-primary " value="Find"/>
-                <input name="practiceFinderClearBtn" id="practiceFinderClearBtn" type="button" title="Clear" class="btn btn-link" value="Clear">
+            <div class="controls">
+
+
+
+                <input class="input-small" id="practicepostcode" maxlength="8" name="practicePostCode" placeholder="Postcode" size="8" title="Postcode" type="text" value="">
+
+
+
             </div>
-        
-    </div>
-    </div>
-    
-</div>
-
-<div id="dummyFlashBannerPractice" style="display:none;">
- 
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-</div>    
-
-</form>
-</div>
-    
-
-
-
-
-<div id="addressFinderContainer" name="addressFinderContainer">
-<form id="addressFinderForm" name="AddressFinder" method="post" autocomplete="off">
-    <input type="hidden" name="sessionTokenId" value="9c147691-9f4c-482c-80b7-1f2ef3a5b60c">
-
-
-
-    
-<div id="addressFinderPanel" class="well well-small lightGroupContainer">
-
-
-    
-    <div class="form-horizontal" style="padding:0px;">
-        <div class="row-fluid container-header">
-    <div class="span6">
-        <h2 tabindex="0">Address finder</h2>
-        
-    </div>
-    <div class="span6" style="text-align: right;">
-        
-            <input name="addressFinderCancelBtn" id="addressFinderCancelBtnSearch" type="button" title="Cancel" class="btn btn-link" value="Cancel">
-        
-    </div>
-</div>
-        <div class="row-fluid" tabindex="0">
-            <p>Please enter as much information as you can</p>
-                <p id="addressFinderDescription"></p>
         </div>
-    
-        <div class="form-horizontal">
-            
 
-<div id="address1_row" class="control-group">
-    <label id="address1_label" class="control-label  " for="address1">
+        <div class="form-actions">
+            <input name="practiceCodeFinderFindBtn" id="practiceCodeFinderFindBtn" type="submit" title="Find GP practice" class="btn btn-primary " value="Find" />
+            <input name="practiceFinderClearBtn" id="practiceFinderClearBtn" type="button" title="Clear" class="btn btn-link" value="Clear">
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    <div id="dummyFlashBannerPractice" style="display:none;">
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </form>
+    </div>
+
+
+
+
+
+    <div id="addressFinderContainer" name="addressFinderContainer">
+        <form id="addressFinderForm" name="AddressFinder" method="post" autocomplete="off">
+            <input type="hidden" name="sessionTokenId" value="9c147691-9f4c-482c-80b7-1f2ef3a5b60c">
+
+
+
+
+            <div id="addressFinderPanel" class="well well-small lightGroupContainer">
+
+
+
+                <div class="form-horizontal" style="padding:0px;">
+                    <div class="row-fluid container-header">
+                        <div class="span6">
+                            <h2 tabindex="0">Address finder</h2>
+
+                        </div>
+                        <div class="span6" style="text-align: right;">
+
+                            <input name="addressFinderCancelBtn" id="addressFinderCancelBtnSearch" type="button" title="Cancel" class="btn btn-link" value="Cancel">
+
+                        </div>
+                    </div>
+                    <div class="row-fluid" tabindex="0">
+                        <p>Please enter as much information as you can</p>
+                        <p id="addressFinderDescription"></p>
+                    </div>
+
+                    <div class="form-horizontal">
+
+
+                        <div id="address1_row" class="control-group">
+                            <label id="address1_label" class="control-label  " for="address1">
         
         ** Address
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="address1" maxlength="35" name="address1" placeholder="House name/Flat Number" title="House name/Flat Number" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-            
+                            <div class="controls">
 
-<div id="address2_row" class="control-group">
-    <label id="address2_label" class="control-label  " for="address2">
+
+
+                                <input class="input-xxlarge" id="address1" maxlength="35" name="address1" placeholder="House name/Flat Number" title="House name/Flat Number" type="text" value="">
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div id="address2_row" class="control-group">
+                            <label id="address2_label" class="control-label  " for="address2">
         
         
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="address2" maxlength="35" name="address2" placeholder="House number/Street Name" title="House number/Street Name" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-            
+                            <div class="controls">
 
-<div id="address3_row" class="control-group">
-    <label id="address3_label" class="control-label  " for="address3">
+
+
+                                <input class="input-xxlarge" id="address2" maxlength="35" name="address2" placeholder="House number/Street Name" title="House number/Street Name" type="text" value="">
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div id="address3_row" class="control-group">
+                            <label id="address3_label" class="control-label  " for="address3">
         
         
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="address3" maxlength="35" name="address3" placeholder="Locality" title="Locality" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-            
+                            <div class="controls">
 
-<div id="town_row" class="control-group">
-    <label id="town_label" class="control-label mandatory " for="town">
+
+
+                                <input class="input-xxlarge" id="address3" maxlength="35" name="address3" placeholder="Locality" title="Locality" type="text" value="">
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div id="town_row" class="control-group">
+                            <label id="town_label" class="control-label mandatory " for="town">
         
         Town
     </label>
-    <div class="controls">
-      
-        
-      
-      
-      
-      <input aria-required="true" class="input-xxlarge" id="town" maxlength="35" name="town" placeholder="Town" title="Town" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-            
+                            <div class="controls">
 
-<div id="county_row" class="control-group">
-    <label id="county_label" class="control-label  " for="county">
+
+
+
+
+                                <input aria-required="true" class="input-xxlarge" id="town" maxlength="35" name="town" placeholder="Town" title="Town" type="text" value="">
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div id="county_row" class="control-group">
+                            <label id="county_label" class="control-label  " for="county">
         
         County
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-xxlarge" id="county" maxlength="35" name="county" placeholder="County" title="County" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-            
+                            <div class="controls">
 
-<div id="postcode_row" class="control-group">
-    <label id="postcode_label" class="control-label  " for="postcode">
+
+
+                                <input class="input-xxlarge" id="county" maxlength="35" name="county" placeholder="County" title="County" type="text" value="">
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div id="postcode_row" class="control-group">
+                            <label id="postcode_label" class="control-label  " for="postcode">
         
         ** Post Code
     </label>
-    <div class="controls">
-      
-      
-      
-      <input class="input-small" id="postcode" maxlength="8" name="postcode" placeholder="Post Code" title="Post Code" type="text" value="">
-      
-      
-      
-    </div>
-</div>
-            <div class="control-group">
-                <label class="control-label" tabindex="0">
+                            <div class="controls">
+
+
+
+                                <input class="input-small" id="postcode" maxlength="8" name="postcode" placeholder="Post Code" title="Post Code" type="text" value="">
+
+
+
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" tabindex="0">
                     Country
                 </label>
-                <div class="controls" tabindex="0">
-                    <span class="input-block-level uneditable-input">United Kingdom</span>
-                </div>
-            </div>
-    
-            <div class="form-actions">
-              <input name="addressFinderFindBtn" id="addressFinderFindBtn" type="submit"  title="Find address from gazetteer" class="btn btn-primary " value="Find"/>           
-              <input name="addressFinderClearBtn" id="addressFinderClearBtn" type="button" title="Clear" class="btn btn-link" value="Clear">
-            </div>
-        </div>
-    </div>
-    
-</div>
+                            <div class="controls" tabindex="0">
+                                <span class="input-block-level uneditable-input">United Kingdom</span>
+                            </div>
+                        </div>
 
-<div id="dummyFlashBannerAddress" style="display:none;">
- 
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-
-    
-
-</div>    
-
-</form>
-</div>
-
-
-
-
-
-
-    
-
-
-<div id="searchHelp" class="well well-small lightGroupContainer help-panel help-popup">
-
-
-    
-    <div id="basicSearchHelp" class="altHelp">
-        <div class="row-fluid container-header">
-    <div class="span12">
-        <h2 tabindex="0">Tips on finding a patient using Basic search</h2>
-    </div>
-    
-        
-</div>  
-        <div class="row-fluid" tabindex="0">
-        <p>
-            <ul>
-                <li><a href="#generalsearchtips">General search tips</a></li>
-                <li><a href="#surnametips">Surname tips</a></li>
-                <li><a href="#datetips">Date tips</a></li>
-                <li><a href="#firstnametips">First name tips</a></li>
-                <li><a href="#addressfindertips">Address finder tips</a></li>
-            </ul>
-        </div>
-        <hr/>
-        Need more help?
-        <p>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="#findpatientbasic">Help with this screen</a>
-        </div>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="#patientsearch">Tell me more about searching</a>
-        </div>        
-    </div>
-    <div id="advancedSearchHelp" class="altHelp">
-        <div class="row-fluid container-header">
-    <div class="span12">
-        <h2 tabindex="0">Tips on finding a patient using Advanced search</h2>
-    </div>
-    
-        
-</div>  
-        <div class="row-fluid" tabindex="0">
-        <p>
-            <ul>
-                <li><a href="#advancedsearchtips">Advanced search tips</a></li>
-                <li><a href="#broadensearch">Broaden search tips</a></li>
-                <li><a href="#narrowsearch">Narrow search tips</a></li>
-                <li><a href="#addressfindertips">Address finder tips</a></li>
-                <li><a href="#gppracticefinderhintsandtips">GP practice finder tips</a></li>
-            </ul>
-        </div>
-        <hr/>
-        Need more help?
-        <p>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="#findpatientadvanced">Help with this screen</a>
-        </div>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="patientsearch">Tell me more about searching</a>
-        </div>
-    </div>
-    <div id="postcodeSearchHelp" class="altHelp">
-        <div class="row-fluid container-header">
-    <div class="span12">
-        <h2 tabindex="0">Tips on finding a patient using Postcode search</h2>
-    </div>
-    
-        
-</div>  
-        <div class="row-fluid" tabindex="0">
-        <p>
-            <ul>
-                <li>Enter a postcode either with or without a space</li>
-                <li><a href="#searchingbyhouseholdaddressamppostcodelookup">Searching by household</a></li>
-                <li><a href="#searchingbypostcodeonly">Searching by postcode only</a></li>
-                <li><a href="#usingeffectivedatesinasearch">Using effective dates in a search</a></li>
-            </ul>
-        </div>
-        <hr/>
-        Need more help?
-        <p>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="findpatientpostcode">Help with this screen</a>
-        </div>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="#patientsearch">Tell me more about searching</a>
-        </div>
-    </div>
-    <div id="allocateSearchHelp" class="altHelp">
-        <div class="row-fluid container-header">
-    <div class="span12">
-        <h2 tabindex="0">Tips on allocating an NHS Number for Mother</h2>
-    </div>
-    
-        
-</div>  
-        <div class="row-fluid" tabindex="0">
-            <p>After performing a trace for a mother, if the mother’s record is not found
-            it is possible to allocate a new NHS Number for the mother.</p>
-            
-            <p>Note: All possible traces for the mother’s record must be performed before 
-            allocation of an NHS Number. A new NHS Number should only be allocated when the 
-            user is confident that there is no existing PDS Record.</p>
-            
-            <p>Only SCRa users with the correct access rights can Allocate an NHS Number.
-            This process will create a new PDS Record that can be used for the mother. </p>
-        </div>
-        <hr/>
-        Need more help?
-        <p>
-        <div class="row-fluid arrowIcon heavyText">
-            <a href="findpatientallocate">Help with this screen</a>
-        </div>
-    </div>
-
-
-</div>
-
-<div class="privacy-alert">
-    <div class="privacy-alert-inner">
-        <div class="warningIcon">
-            Use of the NHS Summary Care Record is subject to confidentiality regulations.
-            Some actions will raise a privacy alert.
-        </div>
-        <div class="row-fluid arrowIcon heavyText help-popup">
-            <a href="#alerts">More about privacy alerts</a>
-        </div>
-    </div>
-</div>
-
-    </span>
-</div>
-
-                    
-                
-                
-                    
-            </div>
-
-            
-            
-        </div>
-        
-        <div id="content-print-disabled" class="print-only">
-            <div class="container-fluid">
-                <div class="row-fluid">
-                    <div class="span12">
-                        <p class="text-center"><br>The contents of this page cannot be printed for information governance reasons</p>
+                        <div class="form-actions">
+                            <input name="addressFinderFindBtn" id="addressFinderFindBtn" type="submit" title="Find address from gazetteer" class="btn btn-primary " value="Find" />
+                            <input name="addressFinderClearBtn" id="addressFinderClearBtn" type="button" title="Clear" class="btn btn-link" value="Clear">
+                        </div>
                     </div>
                 </div>
+
+            </div>
+
+            <div id="dummyFlashBannerAddress" style="display:none;">
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="searchHelp" class="well well-small lightGroupContainer help-panel help-popup">
+
+
+
+        <div id="basicSearchHelp" class="altHelp">
+            <div class="row-fluid container-header">
+                <div class="span12">
+                    <h2 tabindex="0">Tips on finding a patient using Basic search</h2>
+                </div>
+
+
+            </div>
+            <div class="row-fluid" tabindex="0">
+                <p>
+                    <ul>
+                        <li><a href="#generalsearchtips">General search tips</a></li>
+                        <li><a href="#surnametips">Surname tips</a></li>
+                        <li><a href="#datetips">Date tips</a></li>
+                        <li><a href="#firstnametips">First name tips</a></li>
+                        <li><a href="#addressfindertips">Address finder tips</a></li>
+                    </ul>
+            </div>
+            <hr/> Need more help?
+            <p>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="#findpatientbasic">Help with this screen</a>
+                </div>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="#patientsearch">Tell me more about searching</a>
+                </div>
+        </div>
+        <div id="advancedSearchHelp" class="altHelp">
+            <div class="row-fluid container-header">
+                <div class="span12">
+                    <h2 tabindex="0">Tips on finding a patient using Advanced search</h2>
+                </div>
+
+
+            </div>
+            <div class="row-fluid" tabindex="0">
+                <p>
+                    <ul>
+                        <li><a href="#advancedsearchtips">Advanced search tips</a></li>
+                        <li><a href="#broadensearch">Broaden search tips</a></li>
+                        <li><a href="#narrowsearch">Narrow search tips</a></li>
+                        <li><a href="#addressfindertips">Address finder tips</a></li>
+                        <li><a href="#gppracticefinderhintsandtips">GP practice finder tips</a></li>
+                    </ul>
+            </div>
+            <hr/> Need more help?
+            <p>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="#findpatientadvanced">Help with this screen</a>
+                </div>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="patientsearch">Tell me more about searching</a>
+                </div>
+        </div>
+        <div id="postcodeSearchHelp" class="altHelp">
+            <div class="row-fluid container-header">
+                <div class="span12">
+                    <h2 tabindex="0">Tips on finding a patient using Postcode search</h2>
+                </div>
+
+
+            </div>
+            <div class="row-fluid" tabindex="0">
+                <p>
+                    <ul>
+                        <li>Enter a postcode either with or without a space</li>
+                        <li><a href="#searchingbyhouseholdaddressamppostcodelookup">Searching by household</a></li>
+                        <li><a href="#searchingbypostcodeonly">Searching by postcode only</a></li>
+                        <li><a href="#usingeffectivedatesinasearch">Using effective dates in a search</a></li>
+                    </ul>
+            </div>
+            <hr/> Need more help?
+            <p>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="findpatientpostcode">Help with this screen</a>
+                </div>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="#patientsearch">Tell me more about searching</a>
+                </div>
+        </div>
+        <div id="allocateSearchHelp" class="altHelp">
+            <div class="row-fluid container-header">
+                <div class="span12">
+                    <h2 tabindex="0">Tips on allocating an NHS Number for Mother</h2>
+                </div>
+
+
+            </div>
+            <div class="row-fluid" tabindex="0">
+                <p>After performing a trace for a mother, if the mother’s record is not found it is possible to allocate a new NHS Number for the mother.</p>
+
+                <p>Note: All possible traces for the mother’s record must be performed before allocation of an NHS Number. A new NHS Number should only be allocated when the user is confident that there is no existing PDS Record.</p>
+
+                <p>Only SCRa users with the correct access rights can Allocate an NHS Number. This process will create a new PDS Record that can be used for the mother. </p>
+            </div>
+            <hr/> Need more help?
+            <p>
+                <div class="row-fluid arrowIcon heavyText">
+                    <a href="findpatientallocate">Help with this screen</a>
+                </div>
+        </div>
+
+
+    </div>
+
+    <div class="privacy-alert">
+        <div class="privacy-alert-inner">
+            <div class="warningIcon">
+                Use of the NHS Summary Care Record is subject to confidentiality regulations. Some actions will raise a privacy alert.
+            </div>
+            <div class="row-fluid arrowIcon heavyText help-popup">
+                <a href="#alerts">More about privacy alerts</a>
             </div>
         </div>
-        
-        <div id="footer" class="navbar-fixed-bottom">
-            
-                
+    </div>
 
-<div id="footer-screen" class="footer print-disabled" tabindex="0">
-    <p class="pull-left"><strong>CONFIDENTIAL: </strong>PERSONAL PATIENT DATA accessed by MORNING, Healthchecks - Consultant - WEST POTTERGATE HLTH.CTR. (D82106)</p>
-    <p class="pull-right">Version: jgj-8846-mon2-4.20140305180427</p>
-</div>
+    </span>
+    </div>
 
-<div id="footer-print" class="print-only" tabindex="0"> 
-    <p class="heavyText">User: MORNING, Healthchecks - Consultant - WEST POTTERGATE HLTH.CTR.</p>
-    <p class="heavyText">NHS CONFIDENTIAL: Personal data about a patient</p>
-    <p class="heavyText">Printed at: 21-Jun-2018 11:47</p> 
-    <p class="heavyText">Information printed is “uncontrolled” and only accurate at time of printout.</p>
-    <p class="heavyText">Printout must be kept confidential and only viewed by those persons with a LR with the patient.</p>
-</div>
-            
+
+
+
+
+    </div>
+
+
+
+    </div>
+
+    <div id="content-print-disabled" class="print-only">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span12">
+                    <p class="text-center"><br>The contents of this page cannot be printed for information governance reasons</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="navbar-fixed-bottom">
+
+
+
+        <div id="footer-screen" class="footer print-disabled" tabindex="0">
+            <p class="pull-left"><strong>CONFIDENTIAL: </strong>PERSONAL PATIENT DATA accessed by MORNING, Healthchecks - Consultant - WEST POTTERGATE HLTH.CTR. (D82106)</p>
+            <p class="pull-right">Version: jgj-8846-mon2-4.20140305180427</p>
         </div>
 
-        <div id="changeRoleModal" class="modal hide print-disabled" role="dialog" tabindex="-1" data-backdrop="static">
+        <div id="footer-print" class="print-only" tabindex="0">
+            <p class="heavyText">User: MORNING, Healthchecks - Consultant - WEST POTTERGATE HLTH.CTR.</p>
+            <p class="heavyText">NHS CONFIDENTIAL: Personal data about a patient</p>
+            <p class="heavyText">Printed at: 21-Jun-2018 11:47</p>
+            <p class="heavyText">Information printed is “uncontrolled” and only accurate at time of printout.</p>
+            <p class="heavyText">Printout must be kept confidential and only viewed by those persons with a LR with the patient.</p>
+        </div>
+
+    </div>
+
+    <div id="changeRoleModal" class="modal hide print-disabled" role="dialog" tabindex="-1" data-backdrop="static">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="close dialog">×</button>
             <h2 tabindex="0">Please confirm that you wish to change your role.</h2>
@@ -1208,7 +1107,7 @@
             <a href="/summarycarerecord/changerole" class="btn btn-primary">Continue</a>
         </div>
     </div>
-        <div id="loadingModal" class="modal hide print-disabled" data-backdrop="static" data-keyboard="false" role="dialog">
+    <div id="loadingModal" class="modal hide print-disabled" data-backdrop="static" data-keyboard="false" role="dialog">
         <div class="modal-header">
             <h1><strong>Please wait</strong></h1>
         </div>
@@ -1217,45 +1116,46 @@
             <div class="loading-bar"></div>
         </div>
     </div>
-        
 
-        
-            
-        
 
-        <!-- Accessibility error reader --> 
-        <div id="errorsAlert" role="alert" aria-live="assertive" atomic="true" style="font-size:0px; position: absolute; left:-999px; width: 1em; overflow: hidden;"></div>
 
-        <!-- Third-party libraries -->
-        <!--[if lt IE 9]>
+
+
+
+    <!-- Accessibility error reader -->
+    <div id="errorsAlert" role="alert" aria-live="assertive" atomic="true" style="font-size:0px; position: absolute; left:-999px; width: 1em; overflow: hidden;"></div>
+
+    <!-- Third-party libraries -->
+    <!--[if lt IE 9]>
         
         <script async type="text/javascript" src="/summarycarerecord/static/js/scr/ie-comp.js"></script>
         
         <script async type="text/javascript" src="/summarycarerecord/static/js/lib/json3-3.2.5.min.js"></script>
         
         <![endif]-->
-        <script type="text/javascript">
-            // prepare dynamic information needed by static files
-            if (typeof scr === "undefined") scr = {};
-            if (typeof scr.util === "undefined") scr.util = {};
-            scr.util.AJAX_SESSION_URL = '/summarycarerecord/ajaxsession';
-        </script>
-                
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/scr/util.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/scr/print.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/scr/search.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/scr/reviewdialogobject.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/scr/edit.js"></script>
-        
-        <script type="text/javascript" src="/summarycarerecord/static/js/scr/fgm.js"></script>
-        
-        
-        
+    <script type="text/javascript">
+        // prepare dynamic information needed by static files
+        if (typeof scr === "undefined") scr = {};
+        if (typeof scr.util === "undefined") scr.util = {};
+        scr.util.AJAX_SESSION_URL = '/summarycarerecord/ajaxsession';
+
+    </script>
+
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/util.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/print.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/search.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/reviewdialogobject.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/edit.js"></script>
+
+    <script type="text/javascript" src="/summarycarerecord/static/js/scr/fgm.js"></script>
+
+
+
 
 
     <script type="text/javascript" src="/summarycarerecord/static/js/scr/addressfinder.js"></script>
@@ -1266,50 +1166,53 @@
 
 
 
-<script type="text/javascript">
-$(document).ready( function() {
-    scr.search.initialise();
-    scr.search.attachTabHandlers();
-    scr.search.activateStartingTabPane();
-    scr.search.replaceDefaultKeyboardSubmitHandlers();
-    scr.search.focusOnSidePanelIfOpen();
-    scr.search.installAllocateTabListener();
-    scr.util.installFocusListeners();
-    scr.util.enablePlaceholderText();
-    scr.util.loadingModal('input[value="Find"],input[id="allocateNHSNumberBtn"]');
-    scr.util.proceedToBirthNotifcationModal();
-});
-</script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            scr.search.initialise();
+            scr.search.attachTabHandlers();
+            scr.search.activateStartingTabPane();
+            scr.search.replaceDefaultKeyboardSubmitHandlers();
+            scr.search.focusOnSidePanelIfOpen();
+            scr.search.installAllocateTabListener();
+            scr.util.installFocusListeners();
+            scr.util.enablePlaceholderText();
+            scr.util.loadingModal('input[value="Find"],input[id="allocateNHSNumberBtn"]');
+            scr.util.proceedToBirthNotifcationModal();
+        });
 
-        
-        <script type="text/javascript">
-            $(document).ready(function() {
-                scr.util.initDatepicker();
-            
-                // IE10 doesn't recognise conditional comments, so setting data-useragent string for detection in css.
-                // IE 10's User Agent string is - 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)' 
-                var doc = document.documentElement;
-                doc.setAttribute('data-useragent', navigator.userAgent);
-                
-                // SPII-16129: Expandable text area
-                $("#additionalInfoExpandable").hide();
-                //toggle the component with class msg_body
-                $(".textHeading").click(function()
-                {
-                  $(this).next("#additionalInfoExpandable").slideToggle(1000);
-                });
-                
-                if ($("#additionalInfo_error").length) {
-                    $("#additionalInfoExpandable").show();
-                }
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            scr.util.initDatepicker();
+
+            // IE10 doesn't recognise conditional comments, so setting data-useragent string for detection in css.
+            // IE 10's User Agent string is - 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)' 
+            var doc = document.documentElement;
+            doc.setAttribute('data-useragent', navigator.userAgent);
+
+            // SPII-16129: Expandable text area
+            $("#additionalInfoExpandable").hide();
+            //toggle the component with class msg_body
+            $(".textHeading").click(function() {
+                $(this).next("#additionalInfoExpandable").slideToggle(1000);
             });
-        </script>
-        
-        
-        <script type="text/javascript">
-            window.history.forward();
-            $(document).ready(scr.util.preventBackButtonNavigation);
-        </script>
-        
+
+            if ($("#additionalInfo_error").length) {
+                $("#additionalInfoExpandable").show();
+            }
+        });
+
+    </script>
+
+
+    <script type="text/javascript">
+        window.history.forward();
+        $(document).ready(scr.util.preventBackButtonNavigation);
+
+    </script>
+
 </body>
+
 </html>
