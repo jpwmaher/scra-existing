@@ -406,4 +406,10 @@ ul.ovm-system-data-container li {
     .row-fluid .span3 {
         width: 100%;
     }
+    [class*="span"] {
+        margin-left: 0px;
+    }
+    #masterHeader {
+        top 80px;
+    }
 }
