@@ -399,11 +399,11 @@ ul.ovm-system-data-container li {
     margin-left: 0 !important;
 }
 
-@media only screen and (max-width:50em) {
+@media only screen and (max-width:800px) {
     .span9 {
         width: 100%;
     }
-    span3 {
+    .span3 {
         width: 100%;
     }
 }
