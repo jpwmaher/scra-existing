@@ -402,6 +402,10 @@ ul.ovm-system-data-container li {
     margin-left: 0 !important;
 }
 
+#masterBody {
+    padding-top: 20px !important;
+}
+
 @media only screen and (max-width:800px) {
     .row-fluid .span9 {
         width: 100%;
